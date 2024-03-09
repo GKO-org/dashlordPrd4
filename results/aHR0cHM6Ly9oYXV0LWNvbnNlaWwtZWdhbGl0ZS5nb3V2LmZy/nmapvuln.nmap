@@ -1,0 +1,75 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:49:40 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln haut-conseil-egalite.gouv.fr
+Nmap scan report for haut-conseil-egalite.gouv.fr (185.194.83.18)
+Host is up (0.093s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE  SERVICE    VERSION
+80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
+|_http-server-header: BigIP
+113/tcp closed ident
+443/tcp open   ssl/https
+|_http-trane-info: Problem with XML parsing of /evox/about
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 404 Not Found
+|     Connection: close
+|     Content-Length: 9
+|     ERROR
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Date: Sat, 09 Mar 2024 14:50:00 GMT
+|     X-Outils-CS: 
+|     Vary: Cookie,Accept-Encoding
+|     Composed-By: SPIP 4.2.8 @ www.spip.net + https://https:/local/config.txt
+|     X-Spip-Cache: 86400
+|     Last-Modified: Sat, 09 Mar 2024 14:50:00 GMT
+|     Connection: close
+|     Content-Type: text/html; charset=utf-8
+|     Set-Cookie: BIGipServerpool-dgcs-hautconseilegalite2.cegedim.cloud-HTTP=!ryw8c8LN2IR7ly5WDPlD0yXzT0UGhu1yrIg5isZxfyyI5wno3T7wluXupvEAXzh8h8z2G65Wnv/3z8ArK6lwiQaFJco=; path=/; Httponly; Secure
+|     Strict-Transport-Security: max-age=31536000; includeSubDomains
+|     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+|     <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+|     <head>
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+|     <title>Haut Conseil 
+|     galit
+|     entre les femmes et les hommes</ti
+|   HTTPOptions: 
+|     HTTP/1.0 403 Forbidden
+|     Connection: close
+|     Content-Length: 9
+|     ERROR
+|   RTSPRequest, SIPOptions: 
+|     HTTP/1.0 400 Bad Request
+|     Connection: close
+|     Content-Length: 9
+|_    ERROR
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/9%Time=65EC7718%P=x86_64-alpine-linux-
+SF:musl%r(GetRequest,651E,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sat,\x2009\x
+SF:20Mar\x202024\x2014:50:00\x20GMT\r\nX-Outils-CS:\x20\r\nVary:\x20Cookie
+SF:,Accept-Encoding\r\nComposed-By:\x20SPIP\x204\.2\.8\x20@\x20www\.spip\.
+SF:net\x20\+\x20https://https:/local/config\.txt\r\nX-Spip-Cache:\x2086400
+SF:\r\nLast-Modified:\x20Sat,\x2009\x20Mar\x202024\x2014:50:00\x20GMT\r\nC
+SF:onnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\n
+SF:Set-Cookie:\x20BIGipServerpool-dgcs-hautconseilegalite2\.cegedim\.cloud
+SF:-HTTP=!ryw8c8LN2IR7ly5WDPlD0yXzT0UGhu1yrIg5isZxfyyI5wno3T7wluXupvEAXzh8
+SF:h8z2G65Wnv/3z8ArK6lwiQaFJco=;\x20path=/;\x20Httponly;\x20Secure\r\nStri
+SF:ct-Transport-Security:\x20max-age=31536000;\x20includeSubDomains\r\n\r\
+SF:n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Trans
+SF:itional//EN\"\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitiona
+SF:l\.dtd\">\r\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20lang=
+SF:\"fr\"\x20xml:lang=\"fr\">\r\n<head>\r\n\t<meta\x20http-equiv=\"Content
+SF:-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/>\r\n\t<title>Ha
+SF:ut\x20Conseil\x20\xc3\xa0\x20l'\xc3\x89galit\xc3\xa9\x20entre\x20les\x2
+SF:0femmes\x20et\x20les\x20hommes</ti")%r(HTTPOptions,49,"HTTP/1\.0\x20403
+SF:\x20Forbidden\r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n40
+SF:3\x20ERROR")%r(FourOhFourRequest,49,"HTTP/1\.0\x20404\x20Not\x20Found\r
+SF:\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n404\x20ERROR")%r(
+SF:RTSPRequest,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20cl
+SF:ose\r\nContent-Length:\x209\r\n\r\n400\x20ERROR")%r(SIPOptions,4B,"HTTP
+SF:/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Lengt
+SF:h:\x209\r\n\r\n400\x20ERROR");
+Service Info: Device: load balancer
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  9 14:52:12 2024 -- 1 IP address (1 host up) scanned in 151.59 seconds
