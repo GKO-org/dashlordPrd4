@@ -1,0 +1,133 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:31:27 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln georisques.gouv.fr
+Nmap scan report for georisques.gouv.fr (193.56.4.74)
+Host is up (0.098s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE  SERVICE    VERSION
+80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
+|_http-server-header: BigIP
+113/tcp closed ident
+443/tcp open   ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 500 Internal Server Error
+|     Cache-Control: no-cache
+|     Connection: close
+|     Content-Type: text/html; charset=utf-8
+|     Pragma: no-cache
+|     Content-Length: 48736
+|     <html lang="fr" data-fr-scheme="system" class=" js js" data-fr-js="true" data-once="iframeCookies" data-fr-theme="light">
+|     <head>
+|     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+|     <link rel="icon" href="https://georisques.gouv.fr/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon">
+|     <title>Page indisponible | G
+|     orisques - Minist
+|     transition 
+|     cologique</title>
+|     <meta name="theme-color" content="#000091">
+|     </head>
+|     <body>
+|     <style>
+|     @charset "UTF-8";
+|     :root {
+|     --bs-blue: #2a6199;
+|     --bs-indigo: #6610f2;
+|     --bs-purple: #6f42c1;
+|     --bs-pink: #e95182;
+|     --bs-red: #dc3545;
+|     --bs-orange: #fd7e14;
+|     --bs-yellow: #ffc107;
+|     --bs-green: #198754;
+|     --bs-teal: #
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Date: Sat, 09 Mar 2024 09:32:05 GMT
+|     Cache-Control: max-age=43200, public
+|     X-Drupal-Dynamic-Cache: UNCACHEABLE
+|     X-UA-Compatible: IE=edge
+|     Content-language: fr
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: SAMEORIGIN
+|     Permissions-Policy: interest-cohort=()
+|     Expires: Sun, 19 Nov 1978 05:00:00 GMT
+|     Vary: Cookie,Accept-Encoding
+|     X-Drupal-Cache: HIT
+|     Last-Modified: Sat, 09 Mar 2024 09:32:04 GMT
+|     ETag: "1709976724"
+|     Connection: close
+|     Content-Type: text/html; charset=UTF-8
+|     Set-Cookie: BIGipServerpool_georisques_preventix_web_https=1024989356.47873.0000; path=/; Httponly; Secure
+|     Set-Cookie: TS0167fac5=01ce77d6008bb0987cd6ef623e8a43b9dc85d9dbcba5bd8b7e718492c1501a849d91a7a56b6201a92c394c29b58bf44adb7a70edea; Path=/
+|     <!DOCTYPE html>
+|     <html lang="fr" data-fr-scheme="system">
+|     <head>
+|     <meta charset="utf-8" />
+|     <script>var _paq = _paq || [];(function(){var u=(("https:" ==
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     Date: Sat, 09 Mar 2024 14:31:48 GMT
+|     Allow: GET, POST
+|     Cache-Control: must-revalidate, no-cache, private
+|     X-UA-Compatible: IE=edge
+|     Content-language: fr
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: SAMEORIGIN
+|     Permissions-Policy: interest-cohort=()
+|     expires: -1
+|     pragma: no-cache
+|     Content-Length: 0
+|     Connection: close
+|     Content-Type: text/html; charset=UTF-8
+|     Set-Cookie: BIGipServerpool_georisques_preventix_web_https=1058543788.47873.0000; path=/; Httponly; Secure
+|_    Set-Cookie: TS0167fac5=01ce77d600dc5da78ca314c98f189d0268173fabdd4755dc37dbd0f1cb153587580d0adfab26b871fa1faa37933d2b737ddedd9fc8; Path=/
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/9%Time=65EC72D4%P=x86_64-alpine-linux-
+SF:musl%r(GetRequest,22E8,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sat,\x2009\x
+SF:20Mar\x202024\x2009:32:05\x20GMT\r\nCache-Control:\x20max-age=43200,\x2
+SF:0public\r\nX-Drupal-Dynamic-Cache:\x20UNCACHEABLE\r\nX-UA-Compatible:\x
+SF:20IE=edge\r\nContent-language:\x20fr\r\nX-Content-Type-Options:\x20nosn
+SF:iff\r\nX-Frame-Options:\x20SAMEORIGIN\r\nPermissions-Policy:\x20interes
+SF:t-cohort=\(\)\r\nExpires:\x20Sun,\x2019\x20Nov\x201978\x2005:00:00\x20G
+SF:MT\r\nVary:\x20Cookie,Accept-Encoding\r\nX-Drupal-Cache:\x20HIT\r\nLast
+SF:-Modified:\x20Sat,\x2009\x20Mar\x202024\x2009:32:04\x20GMT\r\nETag:\x20
+SF:\"1709976724\"\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x
+SF:20charset=UTF-8\r\nSet-Cookie:\x20BIGipServerpool_georisques_preventix_
+SF:web_https=1024989356\.47873\.0000;\x20path=/;\x20Httponly;\x20Secure\r\
+SF:nSet-Cookie:\x20TS0167fac5=01ce77d6008bb0987cd6ef623e8a43b9dc85d9dbcba5
+SF:bd8b7e718492c1501a849d91a7a56b6201a92c394c29b58bf44adb7a70edea;\x20Path
+SF:=/\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"fr\"\x20data-fr-scheme=\"
+SF:system\">\n\x20\x20<head>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\"\x
+SF:20/>\n<script>var\x20_paq\x20=\x20_paq\x20\|\|\x20\[\];\(function\(\){v
+SF:ar\x20u=\(\(\"https:\"\x20==")%r(HTTPOptions,277,"HTTP/1\.1\x20200\x20O
+SF:K\r\nDate:\x20Sat,\x2009\x20Mar\x202024\x2014:31:48\x20GMT\r\nAllow:\x2
+SF:0GET,\x20POST\r\nCache-Control:\x20must-revalidate,\x20no-cache,\x20pri
+SF:vate\r\nX-UA-Compatible:\x20IE=edge\r\nContent-language:\x20fr\r\nX-Con
+SF:tent-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20SAMEORIGIN\r\nPerm
+SF:issions-Policy:\x20interest-cohort=\(\)\r\nexpires:\x20-1\r\npragma:\x2
+SF:0no-cache\r\nContent-Length:\x200\r\nConnection:\x20close\r\nContent-Ty
+SF:pe:\x20text/html;\x20charset=UTF-8\r\nSet-Cookie:\x20BIGipServerpool_ge
+SF:orisques_preventix_web_https=1058543788\.47873\.0000;\x20path=/;\x20Htt
+SF:ponly;\x20Secure\r\nSet-Cookie:\x20TS0167fac5=01ce77d600dc5da78ca314c98
+SF:f189d0268173fabdd4755dc37dbd0f1cb153587580d0adfab26b871fa1faa37933d2b73
+SF:7ddedd9fc8;\x20Path=/\r\n\r\n")%r(FourOhFourRequest,40A3,"HTTP/1\.1\x20
+SF:500\x20Internal\x20Server\x20Error\r\nCache-Control:\x20no-cache\r\nCon
+SF:nection:\x20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nPr
+SF:agma:\x20no-cache\r\nContent-Length:\x2048736\r\n\r\n<html\x20lang=\"fr
+SF:\"\x20data-fr-scheme=\"system\"\x20class=\"\x20js\x20js\"\x20data-fr-js
+SF:=\"true\"\x20data-once=\"iframeCookies\"\x20data-fr-theme=\"light\">\r\
+SF:n\x20\x20<head>\r\n\x20\x20\x20\x20<meta\x20http-equiv=\"Content-Type\"
+SF:\x20content=\"text/html;\x20charset=UTF-8\">\r\n\x20\x20\x20\x20<link\x
+SF:20rel=\"icon\"\x20href=\"https://georisques\.gouv\.fr/sites/default/fil
+SF:es/favicon\.ico\"\x20type=\"image/vnd\.microsoft\.icon\">\r\n\x20\x20\x
+SF:20\x20<title>Page\x20indisponible\x20\|\x20G\xc3\xa9orisques\x20-\x20Mi
+SF:nist\xc3\xa8re\x20de\x20la\x20transition\x20\xc3\xa9cologique</title>\r
+SF:\n\x20\x20\x20\x20<meta\x20name=\"theme-color\"\x20content=\"#000091\">
+SF:\r\n\x20\x20</head>\r\n\x20\x20<body>\r\n\x20\x20\x20\x20<style>\r\n\x2
+SF:0\x20\x20\x20\x20\x20@charset\x20\"UTF-8\";\r\n\r\n:root\x20{\r\n\t--bs
+SF:-blue:\x20#2a6199;\r\n\t--bs-indigo:\x20#6610f2;\r\n\t--bs-purple:\x20#
+SF:6f42c1;\r\n\t--bs-pink:\x20#e95182;\r\n\t--bs-red:\x20#dc3545;\r\n\t--b
+SF:s-orange:\x20#fd7e14;\r\n\t--bs-yellow:\x20#ffc107;\r\n\t--bs-green:\x2
+SF:0#198754;\r\n\t--bs-teal:\x20#");
+Service Info: Device: load balancer
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  9 14:34:00 2024 -- 1 IP address (1 host up) scanned in 152.93 seconds
