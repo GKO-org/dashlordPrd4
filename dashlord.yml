@@ -24,4 +24,43 @@ tools:
   budget_page: true
   betagouv: true
 urls:
-  - url: http://policenationale.ddev.site
+  - url: https://enseignementsup-recherche.gouv.fr
+  - url: https://entreprises.gouv.fr
+  - url: https://epargnonsnosressources.gouv.fr
+  - url: https://esante.gouv.fr
+  - url: https://essonne.gouv.fr
+  - url: https://etalab.gouv.fr
+  - url: https://etudiant.gouv.fr
+  - url: https://eure.gouv.fr
+  - url: https://eure-et-loir.gouv.fr
+  - url: https://europe-en-france.gouv.fr
+  - url: https://extranah.anah.fr
+  - url: https://feat-analytics--ds-gouv.netlify.app
+  - url: https://finistere.gouv.fr
+  - url: https://fonction-publique.gouv.fr
+  - url: https://interieur.gouv.fr
+  - url: https://francearchives.gouv.fr
+  - url: https://franceconnect.gouv.fr
+  - url: https://francenum.gouv.fr
+  - url: https://france-renov.gouv.fr
+  - url: https://france-sesame.gouv.fr
+  - url: https://outre-mer.gouv.fr
+  - url: https://francetnp.gouv.fr
+  - url: https://frenchtech-staging.actimage.io
+  - url: https://fse.gouv.fr
+  - url: https://gard.gouv.fr
+  - url: https://garde-nationale.gouv.fr
+  - url: https://geoportail.gouv.fr
+  - url: https://geoportail-urbanisme.gouv.fr
+  - url: https://georisques.gouv.fr
+  - url: https://gers.gouv.fr
+  - url: https://gironde.gouv.fr
+  - url: https://gouvernement.fr
+  - url: https://guadeloupe.gouv.fr
+  - url: https://guyane.gouv.fr
+  - url: https://handicap.gouv.fr
+  - url: https://harkis.gouv.fr
+  - url: https://haut-conseil-egalite.gouv.fr
+  - url: https://haute-corse.gouv.fr
+  - url: https://haute-garonne.gouv.fr
+  - url: https://haute-loire.gouv.fr
