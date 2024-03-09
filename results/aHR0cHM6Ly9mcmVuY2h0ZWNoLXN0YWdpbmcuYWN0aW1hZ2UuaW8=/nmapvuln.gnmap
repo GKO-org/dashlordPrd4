@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:24:07 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln frenchtech-staging.actimage.io
+Host: 80.87.226.45 (svr226045.actimage.net)	Status: Up
+Host: 80.87.226.45 (svr226045.actimage.net)	Ports: 80/open/tcp//http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/, 443/open/tcp//ssl|http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/	Ignored State: filtered (998)
+# Nmap done at Sat Mar  9 14:24:31 2024 -- 1 IP address (1 host up) scanned in 23.77 seconds
