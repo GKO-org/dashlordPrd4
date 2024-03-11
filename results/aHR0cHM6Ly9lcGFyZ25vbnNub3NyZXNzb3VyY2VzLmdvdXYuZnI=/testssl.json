@@ -346,7 +346,7 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "80 >= 30 days"
+              "finding"      : "77 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,14 +507,14 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709991445"
+              "finding"      : "1710182612"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1119,6 +1119,6 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "81"
+              "finding"      : "82"
           }
 ]
