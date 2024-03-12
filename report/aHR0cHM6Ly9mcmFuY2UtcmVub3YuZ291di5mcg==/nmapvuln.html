@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln france-renov.gouv.fr</pre>
-<p class="lead">Mon Mar 11 19:13:17 2024 – Mon Mar 11 19:14:07 2024<br>1 hosts scanned.
+<p class="lead">Tue Mar 12 10:53:45 2024 – Tue Mar 12 10:54:57 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -149,15 +149,11 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  Apache
-  nginx/1.21.6</pre>
-<h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 404 Not Found
-    date: Mon, 11 Mar 2024 19:13:50 GMT
+    date: Tue, 12 Mar 2024 10:54:31 GMT
     server: Apache
     content-length: 196
     content-type: text/html; charset=iso-8859-1
@@ -176,7 +172,7 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 200 OK
-    date: Mon, 11 Mar 2024 19:13:49 GMT
+    date: Tue, 12 Mar 2024 10:54:30 GMT
     server: Apache
     upgrade: h2
     connection: Upgrade
@@ -204,7 +200,7 @@
     &lt;div class="logo-eolas"&gt;&lt;img src="assets/logo_eolas
   HTTPOptions: 
     HTTP/1.1 200 OK
-    date: Mon, 11 Mar 2024 19:13:49 GMT
+    date: Tue, 12 Mar 2024 10:54:30 GMT
     server: Apache
     upgrade: h2
     connection: Upgrade
@@ -216,6 +212,10 @@
     x-content-type-options: nosniff
     referrer-policy: no-referrer-when-downgrade
     x-xss-protection: 1 ;mode=block</pre>
+<h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  Apache
+  nginx/1.21.6</pre>
 </td></tr>
 </tbody>
 </table></div>
