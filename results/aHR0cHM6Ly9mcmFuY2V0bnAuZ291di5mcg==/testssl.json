@@ -199,7 +199,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -542,7 +542,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710184985"
+              "finding"      : "1710241285"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "102"
+              "finding"      : "76"
           }
 ]
