@@ -507,14 +507,14 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710183027"
+              "finding"      : "1710239441"
           }
 ,         {
               "id"           : "HSTS",
@@ -1084,6 +1084,6 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "63"
+              "finding"      : "108"
           }
 ]
