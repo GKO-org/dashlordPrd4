@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Tue Mar 12 10:56:07 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln france-sesame.gouv.fr
+# Nmap 7.92 scan initiated Wed Jun  5 12:50:28 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln france-sesame.gouv.fr
 Host: 92.173.76.193 ()	Status: Up
-Host: 92.173.76.193 ()	Ports: 80/open/tcp//http///, 113/closed/tcp//ident///, 443/open/tcp//ssl|https//DGDDI-WS/	Ignored State: filtered (997)
-# Nmap done at Tue Mar 12 10:58:06 2024 -- 1 IP address (1 host up) scanned in 118.68 seconds
+Host: 92.173.76.193 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https//DGDDI-WS/, 2000/open/tcp//tcpwrapped///, 5060/open/tcp//tcpwrapped///	Ignored State: closed (996)
+# Nmap done at Wed Jun  5 12:52:29 2024 -- 1 IP address (1 host up) scanned in 121.39 seconds
