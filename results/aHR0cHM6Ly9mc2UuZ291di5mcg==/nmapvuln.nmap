@@ -1,8 +1,8 @@
-# Nmap 7.92 scan initiated Tue Mar 12 11:03:40 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln fse.gouv.fr
+# Nmap 7.92 scan initiated Wed Jun  5 12:57:19 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln fse.gouv.fr
 Nmap scan report for fse.gouv.fr (172.105.92.195)
-Host is up (0.22s latency).
+Host is up (0.18s latency).
 rDNS record for 172.105.92.195: li2053-195.members.linode.com
-Not shown: 998 closed tcp ports (reset)
+Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE  VERSION
 80/tcp  open  http     Apache httpd
 |_http-server-header: Apache
@@ -10,4 +10,4 @@ PORT    STATE SERVICE  VERSION
 |_http-server-header: Apache
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Tue Mar 12 11:04:35 2024 -- 1 IP address (1 host up) scanned in 55.42 seconds
+# Nmap done at Wed Jun  5 12:57:48 2024 -- 1 IP address (1 host up) scanned in 28.57 seconds

@@ -297,7 +297,7 @@
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "010A7E1935FE6E7C367960855BFC1296"
+              "finding"      : "C37A6C5D6DC52931DAF3A76924F1E317"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -311,21 +311,21 @@
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ED6B32C7F6C4CB2B8A6965436D183AA9BD72E094"
+              "finding"      : "0802B25F9D5D3A585F6BF4AC0AC122697D80DFBF"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9DFC7488A3722A22140C91CE3F22F2656A80D546A232A5613BCB6347CB5579EB"
+              "finding"      : "4DF40E5F64252B3F860E6447C79040363C0D9508E9D02453B9D1D929CBB0110D"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIIajCCBlKgAwIBAgIRAMN6bF1txSkx2vOnaSTx4xcwDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAwMiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYxHTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTI0MDMyNzIzMDAwMFoXDTI1MDEwOTIyNTk1OVowgYsxCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQQVJJUzFBMD8GA1UECgw4U0VDUkVUQVJJQVQgR0VORVJBTCBNSU5JU1RFUkVTIENIQVJHRVMgQUZGQUlSRVMgU09DSUFMRVMxFDASBgNVBAMMC2ZzZS5nb3V2LmZyMRMwEQYDVQQFEwpTMzA0NjQ0MTc5MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApQLLtb/Xu7I+is+rhO5/clIHI39XBmw2sFmJ/v6og71LB4NwqXv8sz9LjRkiY4815egqOr0klKzHUg0Fk4Dt/iPkZgAydSMYfSz7P4VLMzaHgg68JPZqIME9HqRyNEItfsb6ta0wh306WfCXuniSu5Xsm1YAyjFUFgidkA410VUfz3MsV+dnXmjZriYeXTwncApkiFZgXJdtYfJLyEui4TTD1NcoRxGxH38VIUqhs1dCH4UkWYj5sWLMyKpT+q6pAThYf19p1SO4Gdm/Yg5Bq7Uv+VUKJUIKnJLeqnYfVGhGtmayA4CHPF5FXsK7FXi8xpeYVk3N0Y61JRGmCGyQVQIDAQABo4ID1DCCA9AwgeQGCCsGAQUFBwEBBIHXMIHUMDYGCCsGAQUFBzAChipodHRwOi8vYXV0b3JpdGUuY2VydGlnbmEuZnIvc2VydmljZXNjYS5kZXIwOAYIKwYBBQUHMAKGLGh0dHA6Ly9hdXRvcml0ZS5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuZGVyMC4GCCsGAQUFBzABhiJodHRwOi8vc2VydmljZXNjYS5vY3NwLmNlcnRpZ25hLmZyMDAGCCsGAQUFBzABhiRodHRwOi8vc2VydmljZXNjYS5vY3NwLmRoaW15b3Rpcy5jb20wHwYDVR0jBBgwFoAUrOyGj0s3HLh/FxsZ0K7oTuM0XBIwDAYDVR0TAQH/BAIwADBhBgNVHSAEWjBYMAgGBmeBDAECAjBMBgsqgXoBgTECBQEBATA9MDsGCCsGAQUFBwIBFi9odHRwczovL3d3dy5jZXJ0aWduYS5jb20vYXV0b3JpdGUtY2VydGlmaWNhdGlvbjBlBgNVHR8EXjBcMC2gK6AphidodHRwOi8vY3JsLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5jcmwwK6ApoCeGJWh0dHA6Ly9jcmwuY2VydGlnbmEuZnIvc2VydmljZXNjYS5jcmwwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDgYDVR0PAQH/BAQDAgWgMCcGA1UdEQQgMB6CC2ZzZS5nb3V2LmZygg93d3cuZnNlLmdvdXYuZnIwHQYDVR0OBBYEFMtNOdNvCoJ+J+MJkbPpWFCelhUlMIIBfwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdwBOdaMnXJoQwzhbbNTfP1LrHfDgjhuNacCx+mSxYpo53wAAAY6EJiY7AAAEAwBIMEYCIQCWpN1Z7lXqgnQr2ccdjhHTUm2CNQfYTOtJSnklTOCiAQIhAJSE7/PKmY06OOgepRLMyIvE6mMxyQwtWZwVa8vpWqpYAHYAzxFW7tUufK/zh1vZaS6b6RpxZ0qwF+ysAdJbd87MOwgAAAGOhCYmjQAABAMARzBFAiEAuTQQBoJxx+2Vh+eurd71A8w7TVK5GGNdYEarSbyfyQMCIF8pA3e9HdySqRlw8xNi3p4cJ+7ZHpmpqIEbdpz4wzFmAHYAouMK5EXvva2bfjjtR2d3U9eCW4SU1yteGyzEuVCkR+cAAAGOhCYp7wAABAMARzBFAiEAzHF55Y/rtl0AByOajPByUK0rBaLoN1Y5cbe6i4HaSQ8CIFkoRw3jcShJnPVYKerV6SHBW2ndF4JADYsS8WNjDfnGMA0GCSqGSIb3DQEBCwUAA4ICAQArF/sjUqr1TDLtKkf0RIg2wh1AVsQA2L0YumiFf11GZmfhj1gbOnCEl8JQe08RQFSQ6mTXkPCGjtGulmMupKHDYe8onvDxpcgZO1JuLOfLTi3AzkHMQqYZVw33ypJVD+LO9ErxpTI4iRTf8HkW8VuVZ0u8W4vbNGQhAT0gNmoF3+p+fjoJPogTSZqRcMbDw4Q2Kyj3LJ8g4voYVT3uReogPlVqDfYZMoPyiCtXtS9WIKIMC7zt4jJR2iasMbbMqX6Mqup96bGQKqdmjKEmrI9kUhgxHmg7oo46dt3XlAhWqo9lLT+9jxff13KYj17qXCq5lWKFnS5kS92Ktb9z8YEv5w32bEL5sJEGM6ExxJJbnHFscjJsUk8mBInEiV/mZXOUrYe53l3LOyIeXfpipe9v+8yMco1l7PJH3KDFOQ9z0SZOIgbFqJgdPbGILpcwADvnUjexcy77yHxnhdUryLwVCyB9F/IgAAQ/lF3muAbR0orYTc9xxtuVCvMxYvpw41sAWP4pn2J4zDxLk6/QpSwlEEogf0w772O6YOQEczRds5lY7ngz4uJpm03eapIpoaUy/px66Ne9UL2H01yJ8M6+x1DuFuasQx5HtPngXHT/jUZPlNADcvCAJllEeAyH39sXWIo0pLz5WU+I/V1RlGR3ax7WwGhH/T7jJ6N3cH+P5Q==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,7 +346,7 @@
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.fse.gouv.fr fse.gouv.fr"
+              "finding"      : "fse.gouv.fr www.fse.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -374,21 +374,21 @@
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "304 >= 60 days"
+              "finding"      : "218 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-12-10 23:00"
+              "finding"      : "2024-03-27 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-01-10 22:59"
+              "finding"      : "2025-01-09 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -409,14 +409,14 @@
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -535,14 +535,14 @@
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-50559 seconds from localtime"
+              "finding"      : "-13599 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710190815"
+              "finding"      : "1717578595"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -764,7 +764,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9DFC7488A3722A22140C91CE3F22F2656A80D546A232A5613BCB6347CB5579EB"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=4DF40E5F64252B3F860E6447C79040363C0D9508E9D02453B9D1D929CBB0110D"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1140,6 +1140,6 @@
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "108"
+              "finding"      : "105"
           }
 ]
