@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln fr-alert.gouv.fr</pre>
-<p class="lead">Tue Mar 12 10:12:22 2024 – Tue Mar 12 10:13:09 2024<br>1 hosts scanned.
+<p class="lead">Wed Jun  5 12:07:28 2024 – Wed Jun  5 12:08:10 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -117,7 +117,12 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server:2.4.58">cpe:/a:apache:http_server:2.4.58</a><h5>http-server-header</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server:2.4.58">cpe:/a:apache:http_server:2.4.58</a><h5>vulners</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  cpe:/a:apache:http_server:2.4.58: 
+    	B0A9E5E8-7CCC-5984-9922-A89F11D6BF38	0.0	https://vulners.com/githubexploit/B0A9E5E8-7CCC-5984-9922-A89F11D6BF38	*EXPLOIT*
+    	45D138AD-BEC6-552A-91EA-8816914CA7F4	0.0	https://vulners.com/githubexploit/45D138AD-BEC6-552A-91EA-8816914CA7F4	*EXPLOIT*</pre>
+<h5>http-server-header</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Apache/2.4.58 (Ubuntu)</pre>
 </td></tr>
 <tr class="success">
@@ -134,7 +139,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 404 Not Found
-    date: Thu, 09 Nov 2023 15:01:41 GMT
+    date: Mon, 27 May 2024 14:13:31 GMT
     server: Apache/2.4.58 (Ubuntu)
     cache-control: must-revalidate, no-cache, private
     x-drupal-dynamic-cache: HIT
@@ -146,17 +151,17 @@
     x-generator: Drupal 9 (https://www.drupal.org)
     x-drupal-cache: MISS
     content-type: text/html; charset=UTF-8
-    x-varnish: 1412987
+    x-varnish: 76739681
     age: 0
-    via: 1.1 prd-s1-front-varnish-01 (Varnish/7.2)
-    x-iplb-request-id: 284F1C90:04EC_91EFC1BA:01BB_65F02A95_520044:6269
-    x-iplb-instance: 56206
+    via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)
+    x-iplb-request-id: 34EA281E:D40F_91EFC1BA:01BB_66605511_2F7130:50E2
+    x-iplb-instance: 56269
     connection: close
     &lt;!DOCTYPE html&gt;
-    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema: http://schema.org/ sioc: http://rd
+    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema: http://schema.org/ sioc: http://r
   GetRequest: 
     HTTP/1.1 200 OK
-    date: Wed, 06 Mar 2024 11:10:46 GMT
+    date: Tue, 04 Jun 2024 13:48:42 GMT
     server: Apache/2.4.58 (Ubuntu)
     cache-control: must-revalidate, no-cache, private
     x-drupal-dynamic-cache: MISS
@@ -169,18 +174,18 @@
     x-drupal-cache: HIT
     vary: Accept-Encoding
     content-type: text/html; charset=UTF-8
-    x-varnish: 1412983
+    x-varnish: 580857
     age: 0
     via: 1.1 prd-s1-front-varnish-01 (Varnish/7.2)
     accept-ranges: bytes
-    x-iplb-request-id: 284F1C90:04E4_91EFC1BA:01BB_65F02A8E_52003F:6269
-    x-iplb-instance: 56206
+    x-iplb-request-id: 34EA281E:D406_91EFC1BA:01BB_6660550A_2F712C:50E2
+    x-iplb-instance: 56269
     connection: close
     &lt;!DOCTYPE html&gt;
-    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schem
+    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema
   HTTPOptions: 
     HTTP/1.1 200 OK
-    date: Tue, 12 Mar 2024 10:12:37 GMT
+    date: Wed, 05 Jun 2024 12:07:45 GMT
     server: Apache/2.4.58 (Ubuntu)
     allow: GET, POST
     cache-control: must-revalidate, no-cache, private
@@ -192,11 +197,11 @@
     x-generator: Drupal 9 (https://www.drupal.org)
     content-length: 0
     content-type: text/html; charset=UTF-8
-    x-varnish: 1412985
+    x-varnish: 79402120
     age: 0
-    via: 1.1 prd-s1-front-varnish-01 (Varnish/7.2)
+    via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)
     keep-alive: timeout=5, max=100
-    x-iplb-request-id: 284F1C90:04EB_91EFC1BA:01BB_65F02A95_51E6CD:452E
+    x-iplb-request-id: 34EA281E:D40E_91EFC1BA:01BB_66605510_2F712E:50E2
     x-iplb-instance: 56269
     connection: close</pre>
 <h5>http-server-header</h5>
