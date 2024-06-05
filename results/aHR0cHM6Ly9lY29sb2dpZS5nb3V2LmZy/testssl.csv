@@ -76,7 +76,7 @@
 "intermediate_cert_badOCSP","ecologie.gouv.fr/37.235.89.97","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","ecologie.gouv.fr/37.235.89.97","443","INFO","301 Moved Permanently ('/')","",""
 "HTTP_clock_skew","ecologie.gouv.fr/37.235.89.97","443","INFO","-1 seconds from localtime","",""
-"HTTP_headerTime","ecologie.gouv.fr/37.235.89.97","443","INFO","1717587842","",""
+"HTTP_headerTime","ecologie.gouv.fr/37.235.89.97","443","INFO","1717588543","",""
 "HSTS","ecologie.gouv.fr/37.235.89.97","443","LOW","not offered","",""
 "HPKP","ecologie.gouv.fr/37.235.89.97","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","ecologie.gouv.fr/37.235.89.97","443","INFO","nginx","",""
