@@ -178,7 +178,7 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -269,7 +269,7 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "041478041492776A188EA0BEDAC87A80A379"
+              "finding"      : "03A833913573DF7CD5462F008D4D4DB00D61"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "04FE5A429D3DF1C4A95D8F07B4C2F1F6F2949B38"
+              "finding"      : "FAC4BEDCECBA2B9CBC9C8455AAC9A3E25513D290"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "A6730591F2EF70B9158385417B86C5C2277E775A957BE53BFBB6881E93EE178F"
+              "finding"      : "EF3B6BF91D942998CC78280DE68FF42A8F3549C4567AC8084C91A6D097B87FAF"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFFTCCA/2gAwIBAgISBBR4BBSSd2oYjqC+2sh6gKN5MA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yNDAyMjgxNTU3NTZaFw0yNDA1MjgxNTU3NTVaMBkxFzAVBgNVBAMTDmV0YWxhYi5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArS0G0wjQrEN35+R4v3Y8LNSmgXqMJjKyn2I1EftIZDpZXEC4HqjB3z37KBgp9HPcH+/IeNBj0OcdLxWnVvYNr6VHnC88xeuf/HBp19gO+1PQVKFE7qqt/zeh5C2YuOUkW0R+tskr7XgqjVXfTISbzBz6rPMWNBwVNCj78kJZ/bSH6K5pnTkAMRII6JZLXFtDB8TMxwcbZBxlrtc7jGhkCu7AJxvRBSC7/0FIeRAeGEWKx8gOkHD2FlKytcLjd6GBDjV7GsOZ6IcGY9HBynyQJkbNVxAK0tl2ZK2/RKYkyKa4fICKmxeQr54hlYSm9z5sWPIeirEaZiWEcHHL3g/SfwIDAQABo4ICPDCCAjgwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQyAxXbevb2IOnjkgfrDVKOsXSvkDAfBgNVHSMEGDAWgBQULrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3JnLzBFBgNVHREEPjA8gg5ldGFsYWIuZ291di5mcoIWcHJlcHJvZC5ldGFsYWIuZ291di5mcoISd3d3LmV0YWxhYi5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHYAouK/1h7eLy8HoNZObTen3GVDsMa1LqLat4r4mm31F9gAAAGN8Ka/0gAABAMARzBFAiEA0hwrbu7Qn79udd0EtwIPUBP6GVWhgbgK5yTVNiVzW0cCIHpmOmDNFMoy7y2dptyYk7TOVsveDDZxRPHVadPDTblNAHYA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGN8KbALAAABAMARzBFAiBMsqE88+38Bf8Ia5GxSJmvXh82zhFks0CPivhTusbGiAIhAKPt3v/3BReVKkhXTPpa4hobjsQto1caO/Brb/jOKbNwMA0GCSqGSIb3DQEBCwUAA4IBAQB/Pg/y/nYXkycV/oRkLs0hijwqlRAcAUHIEuuJ1aAZyVTZYI7NVFzRnq51CQxU7JE0GYs2B3XjNNn6BoiItCXscAtWOL/Pvpr7kbC8zCbLZDVoxaW6+CMAgXpY4WYBOZpWK2vc6i2M11IQWX8acPP2DLHTsX/hZvjEilmRoPmIZ3hcv2WmokqupbctASmiLZpwqjq0L3RDG++zpPIZ43ACSTuhQ4t6+RD5VXkrIF+csCseuDLiGYpjJpToajFa+gi6WWWlZVZ2ow4O5Y0d3Ehf+aYkgO+7IgC/s94ZBDeRuV9J3R7EFnT3gCutXsYNAZWXFxrYH7CEKyl5tnJ7MjFj\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFFTCCA/2gAwIBAgISA6gzkTVz33zVRi8AjU1NsA1hMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yNDA0MjgyMTA4NTVaFw0yNDA3MjcyMTA4NTRaMBkxFzAVBgNVBAMTDmV0YWxhYi5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApCVqSbH0LSdPpnMMi4RrfLxjSink1+Gdc7SYg8lPES18T5F6IFjhmkw2ew50VqJsafeNNSAcKaLKzbcK1f6q0woNe7me59A1afjRzbsdbos5sY3zWVjkgPkj/28sTa74xC4MayX2ZUYOeUYqIDfpYkwjJMb8CdAXAXFCD5t4rPqDwNF/rjXLbnE3PI1LTZv2Ia6btSYr72Jr3wr8QmUjjf5l0d8MssHwO6NCeCyw7y5sx1zrXSoYIaSJ+G4339874kTJp/aN9kofHOtMppk7f7cXLZS4IL1N15Lqz0GrTPV+nmMGN01Hz1b3aKTb6Mou8H9mcpRRoRfeWRhqaj/XpQIDAQABo4ICPDCCAjgwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBR7tGxoCrI9+uMjpsoSqC43GsJhsjAfBgNVHSMEGDAWgBQULrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3JnLzBFBgNVHREEPjA8gg5ldGFsYWIuZ291di5mcoIWcHJlcHJvZC5ldGFsYWIuZ291di5mcoISd3d3LmV0YWxhYi5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHYAPxdLT9ciR1iUHWUchL4NEu2QN38fhWrrwb8ohez4ZG4AAAGPJsEF+wAABAMARzBFAiBJc9tUzlEr1TvmuCM35fZlRl3gOUpb9eR51j3Pc8zrVwIhAOB/31v78ShNlUnmAK+FuaqF1Nqr0+UHhzf+YDDZkI64AHYAdv+IPwq2+5VRwmHM9Ye6NLSkzbsp3GhCCp/mZ0xaOnQAAAGPJsEGHgAABAMARzBFAiARmDBlVP60cNIJ4BLUAk7KAaDkMtjtKEfCpVnqyZE4qQIhALA9AP492wtv3p1F5OQl3QmfF3hh3Nye77ayoVGPmAyWMA0GCSqGSIb3DQEBCwUAA4IBAQBXyUFCO4x9oGvT4sdcY2Ub3s4qeFOxbR80IiJQ3ODCmGMvek1AVoaqsi1c+emj258LNhdcW3SjW3q/p3DkuvaUt24kGoEZD+phLUU0eA3ZWmoYp1Ifx1o8aHqiamdaXMA5OLLOlCA9b2VLycgWcZQT0uE685Z1zWkF+wn4bMxabFXPmV+hSjsFfVRU52OdezR/dbkgfFyI3AVnBuQdDv2CRjrrAJaGjyAatihfLC0Bqta5b8rl/knUgqYEYV+iB3PC+4pH/5UENV0vls69h2NETmoO9Ws97XOFMJEZ2cHF0+OULzodM/5+arUQnpKCCiIA75equsYQ9x27Q6LsY4G1\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "77 >= 30 days"
+              "finding"      : "52 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-02-28 15:57"
+              "finding"      : "2024-04-28 21:08"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-05-28 15:57"
+              "finding"      : "2024-07-27 21:08"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -514,7 +514,7 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710239441"
+              "finding"      : "1717590079"
           }
 ,         {
               "id"           : "HSTS",
@@ -701,7 +701,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=A6730591F2EF70B9158385417B86C5C2277E775A957BE53BFBB6881E93EE178F"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=EF3B6BF91D942998CC78280DE68FF42A8F3549C4567AC8084C91A6D097B87FAF"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1084,6 +1084,6 @@
               "ip"           : "etalab.gouv.fr/147.135.136.56",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "108"
+              "finding"      : "58"
           }
 ]
