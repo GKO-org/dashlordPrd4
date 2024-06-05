@@ -262,7 +262,7 @@
               "ip"           : "eure-et-loir.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "85FF925AD963DC4AB0768F8724740A9E"
+              "finding"      : "E3CFA9ADFACCDBA309B21C3C04A28F27"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "eure-et-loir.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4E56D847FD5C694F8C510B15516F5F6B839C7911"
+              "finding"      : "6369A93463E0289DBBA4E60A934B0D5BEB0E56C9"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "eure-et-loir.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "11CDCC1EC2831961416876EE74EAC299F4D6ACE208D4B73FCCAE32B92339E962"
+              "finding"      : "4102059C919764DA2E92BFBBDC6ADBAA492FF5AF77DE851C7E7755CB4F6DE42C"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "eure-et-loir.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -339,21 +339,21 @@
               "ip"           : "eure-et-loir.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "108 >= 60 days"
+              "finding"      : "357 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "eure-et-loir.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-06-29 22:00"
+              "finding"      : "2024-05-28 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "eure-et-loir.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-06-28 21:59"
+              "finding"      : "2025-05-28 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,7 +500,7 @@
               "ip"           : "eure-et-loir.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710239725"
+              "finding"      : "1717590341"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=11CDCC1EC2831961416876EE74EAC299F4D6ACE208D4B73FCCAE32B92339E962"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=4102059C919764DA2E92BFBBDC6ADBAA492FF5AF77DE851C7E7755CB4F6DE42C"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "eure-et-loir.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "92"
+              "finding"      : "58"
           }
 ]
