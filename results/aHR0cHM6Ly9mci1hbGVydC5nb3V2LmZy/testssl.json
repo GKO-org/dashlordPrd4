@@ -367,7 +367,7 @@
               "ip"           : "fr-alert.gouv.fr/145.239.193.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "153 >= 60 days"
+              "finding"      : "111 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -479,21 +479,21 @@
               "ip"           : "fr-alert.gouv.fr/145.239.193.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-80196 seconds from localtime"
+              "finding"      : "-1146346 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "fr-alert.gouv.fr/145.239.193.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1717508963"
+              "finding"      : "1720080908"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "fr-alert.gouv.fr/145.239.193.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds"
+              "finding"      : "101 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -556,7 +556,7 @@
               "ip"           : "fr-alert.gouv.fr/145.239.193.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "must-revalidate, no-cache, private"
+              "finding"      : "max-age=600, public"
           }
 ,         {
               "id"           : "banner_reverseproxy",
@@ -564,7 +564,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-varnish: 999597via: 1.1 prd-s1-front-varnish-01 (Varnish/7.2)"
+              "finding"      : "x-varnish: 79978955 53654263via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1100,6 +1100,6 @@
               "ip"           : "fr-alert.gouv.fr/145.239.193.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "155"
+              "finding"      : "77"
           }
 ]
