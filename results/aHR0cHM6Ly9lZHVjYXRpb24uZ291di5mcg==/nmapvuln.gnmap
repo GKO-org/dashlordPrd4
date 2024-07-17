@@ -1,2 +1,2 @@
-# Nmap 7.92 scan initiated Wed Jun  5 12:01:49 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln education.gouv.fr
-# Nmap done at Wed Jun  5 12:01:52 2024 -- 1 IP address (0 hosts up) scanned in 3.39 seconds
+# Nmap 7.92 scan initiated Wed Jul 17 14:43:29 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln education.gouv.fr
+# Nmap done at Wed Jul 17 14:43:33 2024 -- 1 IP address (0 hosts up) scanned in 3.75 seconds
