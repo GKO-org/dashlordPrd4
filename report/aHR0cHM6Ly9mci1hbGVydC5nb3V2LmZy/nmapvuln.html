@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln fr-alert.gouv.fr</pre>
-<p class="lead">Wed Jun  5 12:07:28 2024 – Wed Jun  5 12:08:10 2024<br>1 hosts scanned.
+<p class="lead">Wed Jul 17 14:43:24 2024 – Wed Jul 17 14:43:57 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -117,13 +117,14 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server:2.4.58">cpe:/a:apache:http_server:2.4.58</a><h5>vulners</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server:2.4.58">cpe:/a:apache:http_server:2.4.58</a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache/2.4.58 (Ubuntu)</pre>
+<h5>vulners</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   cpe:/a:apache:http_server:2.4.58: 
-    	B0A9E5E8-7CCC-5984-9922-A89F11D6BF38	0.0	https://vulners.com/githubexploit/B0A9E5E8-7CCC-5984-9922-A89F11D6BF38	*EXPLOIT*
-    	45D138AD-BEC6-552A-91EA-8816914CA7F4	0.0	https://vulners.com/githubexploit/45D138AD-BEC6-552A-91EA-8816914CA7F4	*EXPLOIT*</pre>
-<h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache/2.4.58 (Ubuntu)</pre>
+    	CVE-2024-27316	7.5	https://vulners.com/cve/CVE-2024-27316
+    	B0A9E5E8-7CCC-5984-9922-A89F11D6BF38	7.5	https://vulners.com/githubexploit/B0A9E5E8-7CCC-5984-9922-A89F11D6BF38	*EXPLOIT*
+    	45D138AD-BEC6-552A-91EA-8816914CA7F4	7.5	https://vulners.com/githubexploit/45D138AD-BEC6-552A-91EA-8816914CA7F4	*EXPLOIT*</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
@@ -135,57 +136,41 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache/2.4.58 (Ubuntu)</pre>
+<h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
-    HTTP/1.1 404 Not Found
-    date: Mon, 27 May 2024 14:13:31 GMT
-    server: Apache/2.4.58 (Ubuntu)
-    cache-control: must-revalidate, no-cache, private
-    x-drupal-dynamic-cache: HIT
-    x-ua-compatible: IE=edge
-    content-language: fr
-    x-content-type-options: nosniff
-    x-frame-options: SAMEORIGIN
-    expires: Sun, 19 Nov 1978 05:00:00 GMT
-    x-generator: Drupal 9 (https://www.drupal.org)
-    x-drupal-cache: MISS
-    content-type: text/html; charset=UTF-8
-    x-varnish: 76739681
-    age: 0
-    via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)
-    x-iplb-request-id: 34EA281E:D40F_91EFC1BA:01BB_66605511_2F7130:50E2
-    x-iplb-instance: 56269
-    connection: close
-    &lt;!DOCTYPE html&gt;
-    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema: http://schema.org/ sioc: http://r
   GetRequest: 
     HTTP/1.1 200 OK
-    date: Tue, 04 Jun 2024 13:48:42 GMT
+    date: Thu, 04 Jul 2024 08:16:12 GMT
     server: Apache/2.4.58 (Ubuntu)
-    cache-control: must-revalidate, no-cache, private
+    cache-control: max-age=600, public
     x-drupal-dynamic-cache: MISS
     x-ua-compatible: IE=edge
     content-language: fr
     x-content-type-options: nosniff
     x-frame-options: SAMEORIGIN
     expires: Sun, 19 Nov 1978 05:00:00 GMT
+    vary: Cookie,Accept-Encoding
     x-generator: Drupal 9 (https://www.drupal.org)
     x-drupal-cache: HIT
-    vary: Accept-Encoding
+    last-modified: Thu, 04 Jul 2024 08:16:12 GMT
     content-type: text/html; charset=UTF-8
-    x-varnish: 580857
-    age: 0
-    via: 1.1 prd-s1-front-varnish-01 (Varnish/7.2)
+    x-varnish: 79978960 53654260
+    age: 257
+    via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)
+    etag: W/"1720080972-gzip"
     accept-ranges: bytes
-    x-iplb-request-id: 34EA281E:D406_91EFC1BA:01BB_6660550A_2F712C:50E2
-    x-iplb-instance: 56269
+    content-length: 964041
+    keep-alive: timeout=5, max=100
+    x-iplb-request-id: 146D2506:54D7_91EFC1BA:01BB_6697D895_480C5B:7FF0
+    x-iplb-instance: 56206
     connection: close
     &lt;!DOCTYPE html&gt;
-    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema
+    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: h
   HTTPOptions: 
     HTTP/1.1 200 OK
-    date: Wed, 05 Jun 2024 12:07:45 GMT
+    date: Wed, 17 Jul 2024 14:43:39 GMT
     server: Apache/2.4.58 (Ubuntu)
     allow: GET, POST
     cache-control: must-revalidate, no-cache, private
@@ -197,15 +182,13 @@
     x-generator: Drupal 9 (https://www.drupal.org)
     content-length: 0
     content-type: text/html; charset=UTF-8
-    x-varnish: 79402120
+    x-varnish: 79978961
     age: 0
     via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)
     keep-alive: timeout=5, max=100
-    x-iplb-request-id: 34EA281E:D40E_91EFC1BA:01BB_66605510_2F712E:50E2
-    x-iplb-instance: 56269
+    x-iplb-request-id: 146D2506:54D8_91EFC1BA:01BB_6697D89B_480C5E:7FF0
+    x-iplb-instance: 56206
     connection: close</pre>
-<h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache/2.4.58 (Ubuntu)</pre>
 </td></tr>
 </tbody>
 </table></div>
