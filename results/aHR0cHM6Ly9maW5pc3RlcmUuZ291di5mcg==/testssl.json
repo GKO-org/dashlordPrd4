@@ -339,7 +339,7 @@
               "ip"           : "finistere.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "357 >= 60 days"
+              "finding"      : "315 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "finistere.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1717590670"
+              "finding"      : "1721229117"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -1063,6 +1063,6 @@
               "ip"           : "finistere.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "61"
+              "finding"      : "91"
           }
 ]
