@@ -241,7 +241,7 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "SHA256 with RSA"
+              "finding"      : "ECDSA with SHA384"
           }
 ,         {
               "id"           : "cert_keySize",
@@ -269,7 +269,7 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "03992E4DB6638FB13FCC8329006290D9F916"
+              "finding"      : "03EEB1C89829963BD138379E644A191DB421"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "C51CF7D8621F6048060E5B89969962FFE7F2F991"
+              "finding"      : "949D2F4F93C1BE01A3ED7BD4166231BF5CB5B00B"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2DEB1C826989A76FAAF2C5F5BD53A425892BB4F81F49E85353E45DF83FD5B8A2"
+              "finding"      : "F731F0338323716B5A7A38C2EC5C41925D8128604A9EF73B5F89463DD30F9A8B"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEPjCCAyagAwIBAgISA5kuTbZjj7E/zIMpAGKQ2fkWMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yNDA0MjgxNjAxMjhaFw0yNDA3MjcxNjAxMjdaMCkxJzAlBgNVBAMTHmVwYXJnbm9uc25vc3Jlc3NvdXJjZXMuZ291di5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABBlNqz6l0Ynj9fGJXJeVHTgbfLeRSYAOo7UHg7cIG9784FIvCPc/HCawC80TLZDAfZmOqToRKjnLcnGXNZwd7RKjggIgMIICHDAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFDCLlG1ckCcAW2uf6qlI/16kxviOMB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvMCkGA1UdEQQiMCCCHmVwYXJnbm9uc25vc3Jlc3NvdXJjZXMuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB3AD8XS0/XIkdYlB1lHIS+DRLtkDd/H4Vq68G/KIXs+GRuAAABjyWni4QAAAQDAEgwRgIhAOEEMmEfPGgc/h+ch3/Vj0BftMRhPLDwPRIel+C74AghAiEA+RPxXc6yfjS+qiQnxJQ9dFs0oIrTm5GNb4x6S6pAckcAdQB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAY8lp4vAAAAEAwBGMEQCID5er11JOOaIqPdAotVrzDGa78CY0+gqaUmFo/w0zihXAiAPmXrD5BOXJjfU9e+YDzZUPY9b753vlBAkVLDCLEomIzANBgkqhkiG9w0BAQsFAAOCAQEAcGiPonoeRMoZlRj3j7hyzPToXCIqTLLbxk3vo1ZyC7WINpLcFtouZ5nqVlfyLpSPTfLury/aip3xigqeijNp5tbsR1deM4CoFcPchce6Voo8lv2jJrvVtfXBzBnpv4CgRlMjXVXVgVJuBcOgqe+OUym25l1CUJWIYIPJyaUAGdStKSgNQx4yp6yG4O5kwW3i9ACWcGzYKU7HGLQLCXRd0QHtkCLqRllesbPeB1GmNwyqCe1QmP2uKTyoyDYTpIESXpmlHKm0PmmC8k137DW3OMmjN2/o8o1ocO0dKYEatMZ4DHJi5sZb2aX5TkdgZ9PexoTu1tFkStvZRKWoI2s2NQ==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDnDCCAyGgAwIBAgISA+6xyJgpljvRODeeZEoZHbQhMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNjAeFw0yNDA2MjcxNjExNThaFw0yNDA5MjUxNjExNTdaMCkxJzAlBgNVBAMTHmVwYXJnbm9uc25vc3Jlc3NvdXJjZXMuZ291di5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCCZbEO5sXyhPIxmayaI4c3miSeRt6n3cEDnKYCDCy9UGRG4H1epnZ5ErJLvx0O0z4/hvrVn8iIDyNeZ4JxxYHGjggIeMIICGjAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFC94nw7sI/8IpJSmZ3CuU58axplBMB8GA1UdIwQYMBaAFJMnRpgDqVFojpjWxEJI2yO/WJTSMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL2U2Lm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vZTYuaS5sZW5jci5vcmcvMCkGA1UdEQQiMCCCHmVwYXJnbm9uc25vc3Jlc3NvdXJjZXMuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQIGCisGAQQB1nkCBAIEgfMEgfAA7gB1AD8XS0/XIkdYlB1lHIS+DRLtkDd/H4Vq68G/KIXs+GRuAAABkFquug8AAAQDAEYwRAIgSlDFjqG+Taxr3Ig9hj4PiHft3s94RWOwfW37fAXNEU4CIGfhzN0Fd7XY/OkpvigPBPKnf1aPOvPZst4MvZGbtQA6AHUAdv+IPwq2+5VRwmHM9Ye6NLSkzbsp3GhCCp/mZ0xaOnQAAAGQWq7CHQAABAMARjBEAiB9VJi6Nh5+BcAmwB9ZCvLqkxa9woI0bfbp+Zi+C9XclAIgBNMZqIZD8A4rADBnQxaAUe7jZwj4YS5gexAbeBzyQ00wCgYIKoZIzj0EAwMDaQAwZgIxANJJVNEWxtJlRMyRux1XNA6mIUcEu2yRS8Zm30sdH9wPTj8fYxy1HA3e0VwtcRuwSgIxAJt1jFV6DdzqJDseYro+pPDBgARB7Pbhe9okmdluvXtSBytfcQB40rUrVGxZcKubcw==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "52 >= 30 days"
+              "finding"      : "70 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-04-28 16:01"
+              "finding"      : "2024-06-27 16:11"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-07-27 16:01"
+              "finding"      : "2024-09-25 16:11"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -388,7 +388,7 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://r3.o.lencr.org"
+              "finding"      : "http://e6.o.lencr.org"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -444,35 +444,35 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "R3 (Let's Encrypt from US)"
+              "finding"      : "E6 (Let's Encrypt from US)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAwWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cPR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdxsxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8ZutmNHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxgZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaAFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRwOi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQBgt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6WPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wlikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQzCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BImlJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4avAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2yJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1OyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90IdshCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+HlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6ZvMldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqXnLRbwHOoq7hHwg==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEVzCCAj+gAwIBAgIRALBXPpFzlydw27SHyzpFKzgwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAwWhcNMjcwMzEyMjM1OTU5WjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCRTYwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAATZ8Z5Gh/ghcWCoJuuj+rnq2h25EqfUJtlRFLFhfHWWvyILOR/VvtEKRqotPEoJhC6+QJVV6RlAN2Z17TJOdwRJ+HB7wxjnzvdxEP6sdNgA1O1tHHMWMxCcOrLqbGL0vbijgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBSTJ0aYA6lRaI6Y1sRCSNsjv1iU0jAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAfYt7SiA1sgWGCIpunk46r4AExIRcMxkKgUhNlrrv1B21hOaXN/5miE+LOTbrcmU/M9yvC6MVY730GNFoL8IhJ8j8vrOLpMY22OP6baS1k9YMrtDTlwJHoGby04ThTUeBDksS9RiuHvicZqBedQdIF65pZuhpeDcGBcLiYasQr/EO5gxxtLyTmgsHSOVSBcFOn9lgv7LECPq9i7mfH3mpxgrRKSxHpOoZ0KXMcB+hHuvlklHntvcI0mMMQ0mhYj6qtMFStkF1RpCG3IPdIwpVCQqu8GV7s8ubknRzs+3C/Bm19RFOoiPpDkwvyNfvmQ14XkyqqKK5oZ8zhD32kFRQkxa8uZSuh4aTImFxknu39waBxIRXE4jKxlAmQc4QjFZoq1KmQqQg0J/1JF8RlFvJas1VcjLvYlvUB2t6npO6oQjB3l+PNf0DpQH7iUx3Wz5AjQCi6L25FjyE06q6BZ/QlmtYdl/8ZYao4SRqPEs/6cAiF+Qf5zg2UkaWtDphl1LKMuTNLotvsX99HP69V2faNyegodQ0LyTApr/vT01YPE46vNsDLgK+4cL6TrzC/a4WcmF5SRJ938zrv/duJHLXQIku5v0+EwOy59Hdm0PT/Er/84dDV0CSjdR/2XuZM3kpysSKLgD1cKiDA+IRguODCxfO9cyYIg46v9mFmBvyH04=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "67ADD1166B020AE61B8F5FC96813C04C2AA589960796865572A3C7E737613DFD"
+              "finding"      : "76E9E288AAFC0E37F4390CBF946AAD997D5C1C901B3CE513D3D8FADBABE2AB85"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2020-09-04 00:00"
+              "finding"      : "2024-03-13 00:00"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-09-15 16:00"
+              "finding"      : "2027-03-12 23:59"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
@@ -486,7 +486,7 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "R3 <-- ISRG Root X1"
+              "finding"      : "E6 <-- ISRG Root X1"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -514,7 +514,7 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1717589748"
+              "finding"      : "1721227926"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1119,6 +1119,6 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "95"
+              "finding"      : "77"
           }
 ]
