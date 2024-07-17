@@ -178,7 +178,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "valid for 7200 seconds only (<daily)"
+              "finding"      : "valid for 7199 seconds only (<daily)"
           }
 ,         {
               "id"           : "SSL_sessionID_support",
@@ -192,7 +192,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -339,7 +339,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "77 >= 30 days"
+              "finding"      : "35 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +493,14 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1717591988"
+              "finding"      : "1721230645"
           }
 ,         {
               "id"           : "HSTS",
@@ -1056,6 +1056,6 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "99"
+              "finding"      : "58"
           }
 ]
