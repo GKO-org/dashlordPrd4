@@ -325,7 +325,7 @@
               "ip"           : "interieur.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "CRITICAL",
-              "finding"      : "Some certificate trust checks failed -> Java (chain incomplete) Apple (chain incomplete)  , OK -> Mozilla Microsoft Linux"
+              "finding"      : "Some certificate trust checks failed -> Apple (chain incomplete)  , OK -> Mozilla Microsoft Linux Java"
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
@@ -339,7 +339,7 @@
               "ip"           : "interieur.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "264 >= 60 days"
+              "finding"      : "236 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1063,6 +1063,6 @@
               "ip"           : "interieur.gouv.fr/45.60.74.33",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "75"
+              "finding"      : "76"
           }
 ]
