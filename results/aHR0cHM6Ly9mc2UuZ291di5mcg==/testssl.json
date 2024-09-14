@@ -374,7 +374,7 @@
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "148 >= 60 days"
+              "finding"      : "117 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-52395 seconds from localtime"
+              "finding"      : "-52205 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "fse.gouv.fr/172.105.92.195",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723590007"
+              "finding"      : "1726268455"
           }
 ,         {
               "id"           : "HSTS_time",
