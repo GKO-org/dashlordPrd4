@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln fr-alert.gouv.fr</pre>
-<p class="lead">Wed Aug 14 12:32:59 2024 – Wed Aug 14 12:33:42 2024<br>1 hosts scanned.
+<p class="lead">Sat Sep 14 12:31:14 2024 – Sat Sep 14 12:31:46 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -112,40 +112,124 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">Apache httpd</td>
-<td title="Version">2.4.58</td>
+<td title="Product">Apache</td>
+<td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server:2.4.58">cpe:/a:apache:http_server:2.4.58</a><h5>vulners</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  cpe:/a:apache:http_server:2.4.58: 
-    	CVE-2024-40898	7.5	https://vulners.com/cve/CVE-2024-40898
-    	CVE-2024-27316	7.5	https://vulners.com/cve/CVE-2024-27316
-    	B5E74010-A082-5ECE-AB37-623A5B33FE7D	7.5	https://vulners.com/githubexploit/B5E74010-A082-5ECE-AB37-623A5B33FE7D	*EXPLOIT*
-    	B0A9E5E8-7CCC-5984-9922-A89F11D6BF38	7.5	https://vulners.com/githubexploit/B0A9E5E8-7CCC-5984-9922-A89F11D6BF38	*EXPLOIT*
-    	45D138AD-BEC6-552A-91EA-8816914CA7F4	7.5	https://vulners.com/githubexploit/45D138AD-BEC6-552A-91EA-8816914CA7F4	*EXPLOIT*</pre>
+  FourOhFourRequest: 
+    HTTP/1.1 302 Found
+    date: Sat, 14 Sep 2024 12:31:23 GMT
+    server: Apache
+    location: https://www.fr-alert.gouv.fr/nice%20ports,/Trinity.txt.bak
+    content-length: 242
+    keep-alive: timeout=5, max=100
+    content-type: text/html; charset=iso-8859-1
+    x-iplb-request-id: 146D26CE:BC46_91EFC1BA:0050_66E5821B_6C81B1:7FF0
+    x-iplb-instance: 56206
+    connection: close
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;302 Found&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Found&lt;/h1&gt;
+    &lt;p&gt;The document has moved &lt;a href="https://www.fr-alert.gouv.fr/nice%20ports,/Trinity.txt.bak"&gt;here&lt;/a&gt;.&lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  GetRequest: 
+    HTTP/1.1 302 Found
+    date: Sat, 14 Sep 2024 12:31:22 GMT
+    server: Apache
+    location: https://www.fr-alert.gouv.fr/
+    content-length: 213
+    keep-alive: timeout=5, max=100
+    content-type: text/html; charset=iso-8859-1
+    x-iplb-request-id: 146D26CE:BC02_91EFC1BA:0050_66E58214_6C81AB:7FF0
+    x-iplb-instance: 56206
+    connection: close
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;302 Found&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Found&lt;/h1&gt;
+    &lt;p&gt;The document has moved &lt;a href="https://www.fr-alert.gouv.fr/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  HTTPOptions: 
+    HTTP/1.1 302 Found
+    date: Sat, 14 Sep 2024 12:31:22 GMT
+    server: Apache
+    location: https://www.fr-alert.gouv.fr/
+    content-length: 213
+    keep-alive: timeout=5, max=100
+    content-type: text/html; charset=iso-8859-1
+    x-iplb-request-id: 146D26CE:BC40_91EFC1BA:0050_66E5821A_6C6A58:50E2
+    x-iplb-instance: 56269
+    connection: close
+    &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
+    &lt;html&gt;&lt;head&gt;
+    &lt;title&gt;302 Found&lt;/title&gt;
+    &lt;/head&gt;&lt;body&gt;
+    &lt;h1&gt;Found&lt;/h1&gt;
+    &lt;p&gt;The document has moved &lt;a href="https://www.fr-alert.gouv.fr/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  RTSPRequest, X11Probe: 
+    HTTP/1.1 400 Bad request
+    content-length: 90
+    cache-control: no-cache
+    content-type: text/html
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
+    &lt;/body&gt;&lt;/html&gt;</pre>
 <h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache/2.4.58 (Ubuntu)</pre>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">https</td>
-<td title="Product">Apache/2.4.58 (Ubuntu)</td>
+<td title="Product">Apache/2.4.62 (Ubuntu)</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache/2.4.58 (Ubuntu)</pre>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache/2.4.62 (Ubuntu)</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest: 
+    HTTP/1.1 404 Not Found
+    date: Mon, 01 Jul 2024 14:58:55 GMT
+    server: Apache/2.4.62 (Ubuntu)
+    cache-control: max-age=600, public
+    x-drupal-dynamic-cache: HIT
+    x-ua-compatible: IE=edge
+    content-language: fr
+    x-content-type-options: nosniff
+    x-frame-options: SAMEORIGIN
+    expires: Sun, 19 Nov 1978 05:00:00 GMT
+    vary: Cookie
+    x-generator: Drupal 9 (https://www.drupal.org)
+    x-drupal-cache: MISS
+    last-modified: Sat, 14 Sep 2024 12:31:29 GMT
+    etag: "1726317089"
+    content-type: text/html; charset=UTF-8
+    x-varnish: 78639
+    age: 0
+    via: 1.1 prd-s1-front-varnish-01 (Varnish/7.2)
+    content-length: 10834
+    keep-alive: timeout=5, max=100
+    x-iplb-request-id: 146D26CE:BC6C_91EFC1BA:01BB_66E58221_6C81B4:7FF0
+    x-iplb-instance: 56206
+    connection: close
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf
   GetRequest: 
     HTTP/1.1 200 OK
-    date: Thu, 01 Aug 2024 09:02:37 GMT
-    server: Apache/2.4.58 (Ubuntu)
+    date: Mon, 26 Aug 2024 14:17:38 GMT
+    server: Apache/2.4.62 (Ubuntu)
     cache-control: max-age=600, public
     x-drupal-dynamic-cache: MISS
     x-ua-compatible: IE=edge
@@ -156,24 +240,24 @@
     vary: Cookie,Accept-Encoding
     x-generator: Drupal 9 (https://www.drupal.org)
     x-drupal-cache: HIT
-    last-modified: Thu, 01 Aug 2024 09:02:37 GMT
+    last-modified: Mon, 26 Aug 2024 14:17:38 GMT
     content-type: text/html; charset=UTF-8
-    x-varnish: 80295035 77691340
-    age: 280
+    x-varnish: 756357 756333
+    age: 530
     via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)
-    etag: W/"1722502957-gzip"
+    etag: W/"1724681858-gzip"
     accept-ranges: bytes
-    content-length: 744557
+    content-length: 727846
     keep-alive: timeout=5, max=100
-    x-iplb-request-id: 0D537BB1:083D_91EFC1BA:01BB_66BCA405_59371E:7FF0
-    x-iplb-instance: 56206
+    x-iplb-request-id: 146D26CE:BC65_91EFC1BA:01BB_66E5821A_6C6A59:50E2
+    x-iplb-instance: 56269
     connection: close
     &lt;!DOCTYPE html&gt;
-    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: h
+    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http:
   HTTPOptions: 
     HTTP/1.1 200 OK
-    date: Wed, 14 Aug 2024 12:33:16 GMT
-    server: Apache/2.4.58 (Ubuntu)
+    date: Sat, 14 Sep 2024 12:31:29 GMT
+    server: Apache/2.4.62 (Ubuntu)
     allow: GET, POST
     cache-control: must-revalidate, no-cache, private
     x-ua-compatible: IE=edge
@@ -184,12 +268,12 @@
     x-generator: Drupal 9 (https://www.drupal.org)
     content-length: 0
     content-type: text/html; charset=UTF-8
-    x-varnish: 76049826
+    x-varnish: 78637
     age: 0
-    via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)
+    via: 1.1 prd-s1-front-varnish-01 (Varnish/7.2)
     keep-alive: timeout=5, max=100
-    x-iplb-request-id: 0D537BB1:083F_91EFC1BA:01BB_66BCA40C_593721:7FF0
-    x-iplb-instance: 56206
+    x-iplb-request-id: 146D26CE:BC6B_91EFC1BA:01BB_66E58221_6C6A62:50E2
+    x-iplb-instance: 56269
     connection: close</pre>
 </td></tr>
 </tbody>
@@ -214,9 +298,9 @@
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>Apache httpd</td>
-<td>2.4.58</td>
-<td>cpe:/a:apache:http_server:2.4.58</td>
+<td>Apache</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr>
@@ -224,7 +308,7 @@
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
-<td>Apache/2.4.58 (Ubuntu)</td>
+<td>Apache/2.4.62 (Ubuntu)</td>
 <td></td>
 <td></td>
 <td></td>

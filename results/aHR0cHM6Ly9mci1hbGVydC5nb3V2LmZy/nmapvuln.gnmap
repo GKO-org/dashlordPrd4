@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Aug 14 12:32:59 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln fr-alert.gouv.fr
+# Nmap 7.92 scan initiated Sat Sep 14 12:31:14 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln fr-alert.gouv.fr
 Host: 145.239.193.186 ()	Status: Up
-Host: 145.239.193.186 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.58/, 443/open/tcp//ssl|https//Apache|2.4.58 (Ubuntu)/	Ignored State: closed (998)
-# Nmap done at Wed Aug 14 12:33:42 2024 -- 1 IP address (1 host up) scanned in 42.46 seconds
+Host: 145.239.193.186 ()	Ports: 80/open/tcp//http//Apache/, 443/open/tcp//ssl|https//Apache|2.4.62 (Ubuntu)/	Ignored State: closed (998)
+# Nmap done at Sat Sep 14 12:31:46 2024 -- 1 IP address (1 host up) scanned in 32.28 seconds
