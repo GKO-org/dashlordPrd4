@@ -192,7 +192,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -262,7 +262,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "04E98297BB5B2F28883955A5A02C9E148042"
+              "finding"      : "035FA380E1F1AE29423A4232E55DA233C17C"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "5C266B740BD56C64E235B1420188A15021492B1B"
+              "finding"      : "6851F75A040A67B9DA09A3BE566A4289BDD22D5F"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DEDA2D28AE546CDBC2A4050293058D13B82F5D82CB01DE5F827A9B7FC36FC8B3"
+              "finding"      : "FA5124E378801C980EAF76381520E19B093BFE0739D611F7E0210E897E2D682B"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDnDCCAyOgAwIBAgISBOmCl7tbLyiIOVWloCyeFIBCMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNTAeFw0yNDA3MjMwOTIxMjJaFw0yNDEwMjEwOTIxMjFaMCAxHjAcBgNVBAMTFXd3dy5mcmFuY2V0bnAuZ291di5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGFYO2OQ/hoJz4BfynQiZ40U3KNth0F4+RPUtpUjOmSUm8/XtcpuPGa2p1f6Vdu9PSB8BPQtT0ONmUtMS78Dq9SjggIpMIICJTAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFHidZq2wffTP4aavlJ4J+yMHdkl5MB8GA1UdIwQYMBaAFJ8rX888IU+dBLftKyzExnCL0tcNMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL2U1Lm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vZTUuaS5sZW5jci5vcmcvMDMGA1UdEQQsMCqCEWZyYW5jZXRucC5nb3V2LmZyghV3d3cuZnJhbmNldG5wLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEDBgorBgEEAdZ5AgQCBIH0BIHxAO8AdgBIsONr2qZHNA/lagL6nTDrHFIBy1bdLIHZu7+rOdiEcwAAAZDfHCgTAAAEAwBHMEUCIQCwqZn7f+wZAsak8xtFZfhiqqnG355HvRPMtfKKFxsm1gIgKiO8fpZLI9vmYjvt/aYNWQOzraSr5tpVVjbUKiClVqsAdQDf4VbrqgWvtZwPhnGNqMAyTq5W2W6n9aVqAdHBO75SXAAAAZDfHCjNAAAEAwBGMEQCIH26Gi3BQe0TqmLmIxMZM5JA71bO62RYg/73ZACOIaHiAiAKo9IbHEn8DlljbFL+kH35kbFn9iZiS7XhEnL9MRp/qjAKBggqhkjOPQQDAwNnADBkAi8mPqBuJE/FAYS0+k84Vbdxcsqi521LnfWnSijW9vNOQaFsevGZmi2TQoFvbVBWxAIxAKlkRN41nKy4zZ1sJsI6yKi3vCM0umW0uAYukJYpYv1d41zW0C6/8TdhnzMx+Me39g==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDnzCCAySgAwIBAgISA1+jgOHxrilCOkIy5V2iM8F8MAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNjAeFw0yNDA4MjIwOTU2MzBaFw0yNDExMjAwOTU2MjlaMCAxHjAcBgNVBAMTFXd3dy5mcmFuY2V0bnAuZ291di5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEWnuUiipIGdnZNDaijx1Epdhi3ja0gjMsdVSXrwrnGJ9EEyel8I1PLM3VJ0p2bio2+yjIlM+mzj7P8qFhAAsVyjggIqMIICJjAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFBjeHEB9HT4PtqCa/BLUwIscH5sEMB8GA1UdIwQYMBaAFJMnRpgDqVFojpjWxEJI2yO/WJTSMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL2U2Lm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vZTYuaS5sZW5jci5vcmcvMDMGA1UdEQQsMCqCEWZyYW5jZXRucC5nb3V2LmZyghV3d3cuZnJhbmNldG5wLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdwBIsONr2qZHNA/lagL6nTDrHFIBy1bdLIHZu7+rOdiEcwAAAZF5ubliAAAEAwBIMEYCIQCrpMyD+eKnPDRtamXbCBTirN+OZ8FGztUuxE1aIMeZ7QIhAKEiDIDLYs+Ns16PTnu/HixYbJds7Ul3gTZNgWWgp1c2AHUA3+FW66oFr7WcD4ZxjajAMk6uVtlup/WlagHRwTu+UlwAAAGRebm6OAAABAMARjBEAiA0arwHCfwDNlpc2p/3eQSnBSPrJBMaIZTrq5yxgWIPXwIgWbAAi820ODxAn6C0SGRMr6oU3iPvTOEH65lIMHUgEYYwCgYIKoZIzj0EAwMDaQAwZgIxAPHzpOJ7naf0DGoqQ5TG9aO/oq0StnDSZHi5tcCKFFLLpyh9rpGDM3Zf2KuZmSiB3AIxAPze7CME9uJevFVjSbuExajgid+z9dYMclBT+e9cghFVrawf5g+lA9a5EfLq8fcHHw==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -339,21 +339,21 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "67 >= 30 days"
+              "finding"      : "66 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-07-23 09:21"
+              "finding"      : "2024-08-22 09:56"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-10-21 09:21"
+              "finding"      : "2024-11-20 09:56"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,7 +381,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://e5.o.lencr.org"
+              "finding"      : "http://e6.o.lencr.org"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -430,21 +430,21 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E5 (Let's Encrypt from US)"
+              "finding"      : "E6 (Let's Encrypt from US)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEVzCCAj+gAwIBAgIRAIOPbGPOsTmMYgZigxXJ/d4wDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAwWhcNMjcwMzEyMjM1OTU5WjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCRTUwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAQNCzqKa2GOtu/cX1jnxkJFVKtj9mZhSAouWXW0gQI3ULc/FnncmOyhKJdyIBwsz9V8UiBOVHhbhBRrwJCuhezAUUE8Wod/Bk3U/mDR+mwt4X2VEIiiCFQPmRpM5uoKrNijgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBSfK1/PPCFPnQS37SssxMZwi9LXDTAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAH3KdNEVCQdqk0LKyuNImTKdRJY1C2uw2SJajuhqkyGPY8C+zzsufZ+mgnhnq1A2KVQOSykOEnUbx1cy637rBAihx97r+bcwbZM6sTDIaEriR/PLk6LKs9Be0uoVxgOKDcpG9svD33J+G9Lcfv1K9luDmSTgG6XNFIN5vfI5gs/lMPyojEMdIzK9blcl2/1vKxO8WGCcjvsQ1nJ/Pwt8LQZBfOFyVXP8ubAp/au3dc4EKWG9MO5zcx1qT9+NXRGdVWxGvmBFRAajciMfXME1ZuGmk3/GOkoAM7ZkjZmleyokP1LGzmfJcUd9s7eeu1/9/eg5XlXd/55GtYjAM+C4DG5i7eaNqcm2F+yxYIPt6cbbtYVNJCGfHWqHEQ4FYStUyFnv8sjyqU8ypgZaNJ9aVcWSICLOIE1/Qv/7oKsnZCWJ926wU6RqG1OYPGOi1zuABhLw61cuPVDT28nQS/e6z95cJXq0eK1BcaJ6fJZsmbjRgD5p3mvEf5vdQM7MCEvU0tHbsx2I5mHHJoABHb8KVBgWp/lcXGWiWaeOyB7RP+OfDtvi2OsapxXiV7vNVs7fMlrRjY1joKaqmmycnBvAq14AEbtyLsVfOS66B8apkeFX2NY4XPEYV4ZSCe8VHPrdrERk2wILG3T/EGmSIkCYVUMSnjmJdVQD9F6Na/+zmXCc=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEVzCCAj+gAwIBAgIRALBXPpFzlydw27SHyzpFKzgwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAwWhcNMjcwMzEyMjM1OTU5WjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCRTYwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAATZ8Z5Gh/ghcWCoJuuj+rnq2h25EqfUJtlRFLFhfHWWvyILOR/VvtEKRqotPEoJhC6+QJVV6RlAN2Z17TJOdwRJ+HB7wxjnzvdxEP6sdNgA1O1tHHMWMxCcOrLqbGL0vbijgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBSTJ0aYA6lRaI6Y1sRCSNsjv1iU0jAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAfYt7SiA1sgWGCIpunk46r4AExIRcMxkKgUhNlrrv1B21hOaXN/5miE+LOTbrcmU/M9yvC6MVY730GNFoL8IhJ8j8vrOLpMY22OP6baS1k9YMrtDTlwJHoGby04ThTUeBDksS9RiuHvicZqBedQdIF65pZuhpeDcGBcLiYasQr/EO5gxxtLyTmgsHSOVSBcFOn9lgv7LECPq9i7mfH3mpxgrRKSxHpOoZ0KXMcB+hHuvlklHntvcI0mMMQ0mhYj6qtMFStkF1RpCG3IPdIwpVCQqu8GV7s8ubknRzs+3C/Bm19RFOoiPpDkwvyNfvmQ14XkyqqKK5oZ8zhD32kFRQkxa8uZSuh4aTImFxknu39waBxIRXE4jKxlAmQc4QjFZoq1KmQqQg0J/1JF8RlFvJas1VcjLvYlvUB2t6npO6oQjB3l+PNf0DpQH7iUx3Wz5AjQCi6L25FjyE06q6BZ/QlmtYdl/8ZYao4SRqPEs/6cAiF+Qf5zg2UkaWtDphl1LKMuTNLotvsX99HP69V2faNyegodQ0LyTApr/vT01YPE46vNsDLgK+4cL6TrzC/a4WcmF5SRJ938zrv/duJHLXQIku5v0+EwOy59Hdm0PT/Er/84dDV0CSjdR/2XuZM3kpysSKLgD1cKiDA+IRguODCxfO9cyYIg46v9mFmBvyH04=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "5DFDB3CF31B26F23D87C09F3A0CEF642F64069A9FB7CFE29270BB5DC0F1E16BB"
+              "finding"      : "76E9E288AAFC0E37F4390CBF946AAD997D5C1C901B3CE513D3D8FADBABE2AB85"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
@@ -472,7 +472,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E5 <-- ISRG Root X1"
+              "finding"      : "E6 <-- ISRG Root X1"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -500,7 +500,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723642267"
+              "finding"      : "1726320432"
           }
 ,         {
               "id"           : "HSTS",
@@ -1056,6 +1056,6 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "59"
+              "finding"      : "54"
           }
 ]
