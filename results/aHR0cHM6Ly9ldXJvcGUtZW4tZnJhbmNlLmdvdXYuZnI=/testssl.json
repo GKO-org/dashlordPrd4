@@ -346,7 +346,7 @@
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "74 >= 30 days"
+              "finding"      : "43 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,14 +507,14 @@
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723640777"
+              "finding"      : "1726318771"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1 seconds"
+              "finding"      : "111 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -564,7 +564,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-cacheable: YESx-varnish: 84441657 90450552via: 1.1 varnish (Varnish/6.5)x-cache: HITx-cache-hits: 1"
+              "finding"      : "x-cacheable: YESx-varnish: 109091284 100789224via: 1.1 varnish (Varnish/6.5)x-cache: HITx-cache-hits: 7"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1070,6 +1070,6 @@
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "131"
+              "finding"      : "67"
           }
 ]
