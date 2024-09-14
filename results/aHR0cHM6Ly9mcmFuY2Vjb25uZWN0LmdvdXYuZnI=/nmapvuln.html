@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln franceconnect.gouv.fr</pre>
-<p class="lead">Wed Aug 14 13:15:30 2024 – Wed Aug 14 13:16:08 2024<br>1 hosts scanned.
+<p class="lead">Sat Sep 14 13:16:50 2024 – Sat Sep 14 13:17:38 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -121,7 +121,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 301 Moved Permanently
-    Date: Wed, 14 Aug 2024 13:15:45 GMT
+    Date: Sat, 14 Sep 2024 13:17:08 GMT
     Content-Type: text/html
     Content-Length: 166
     Connection: close
@@ -133,9 +133,9 @@
     &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;
     &lt;/body&gt;
     &lt;/html&gt;
-  GetRequest: 
+  GetRequest, HTTPOptions: 
     HTTP/1.1 301 Moved Permanently
-    Date: Wed, 14 Aug 2024 13:15:44 GMT
+    Date: Sat, 14 Sep 2024 13:17:07 GMT
     Content-Type: text/html
     Content-Length: 166
     Connection: close
@@ -147,23 +147,22 @@
     &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;
     &lt;/body&gt;
     &lt;/html&gt;
-  HTTPOptions: 
-    HTTP/1.1 301 Moved Permanently
-    Date: Wed, 14 Aug 2024 13:15:45 GMT
-    Content-Type: text/html
-    Content-Length: 166
-    Connection: close
-    Location: https://franceconnect.gouv.fr/
-    &lt;html&gt;
-    &lt;head&gt;&lt;title&gt;301 Moved Permanently&lt;/title&gt;&lt;/head&gt;
-    &lt;body&gt;
-    &lt;center&gt;&lt;h1&gt;301 Moved Permanently&lt;/h1&gt;&lt;/center&gt;
-    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
-  RTSPRequest, X11Probe: 
+  RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Wed, 14 Aug 2024 13:15:45 GMT
+    Date: Sat, 14 Sep 2024 13:17:07 GMT
+    Content-Type: text/html
+    Content-Length: 154
+    Connection: close
+    &lt;html&gt;
+    &lt;head&gt;&lt;title&gt;400 Bad Request&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+    &lt;center&gt;&lt;h1&gt;400 Bad Request&lt;/h1&gt;&lt;/center&gt;
+    &lt;hr&gt;&lt;center&gt;openresty&lt;/center&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  X11Probe: 
+    HTTP/1.1 400 Bad Request
+    Date: Sat, 14 Sep 2024 13:17:08 GMT
     Content-Type: text/html
     Content-Length: 154
     Connection: close
@@ -189,9 +188,9 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 200 OK
-    Date: Wed, 14 Aug 2024 13:15:52 GMT
+    Date: Sat, 14 Sep 2024 13:17:15 GMT
     Content-Type: text/html
-    Content-Length: 3909
+    Content-Length: 3888
     Connection: close
     Referrer-Policy: no-referrer
     Cache-Control: no-cache
@@ -199,12 +198,12 @@
     X-Frame-Options: DENY
     X-Content-Type-Options: nosniff
     X-XSS-Protection: 1; mode=block
-    &lt;!doctypehtml&gt;&lt;meta name="viewport"content="width=device-width"&gt;&lt;meta charset="utf-8"&gt;&lt;script&gt;&lt;/script&gt;&lt;script&gt;var __blnChallengeStore={"domain":".franceconnect.gouv.fr","unregisterServiceWorker":false,"cookie":{"path":"/","name":"bln_challengejs","maxAge":900,"value":"6qrjgl8lIh6lrUlKNkxr_KXaPpyR981aj1dAqEmef_XQG0DaGaXQDYrUo3nK-pL2Mckzl_ufGKapIEDhploYD441__pSPLtRKy1uHti23jOOUI59Sn_mJR5jg0IOEP2P"},"checkChallengeParams":{"tracking_id":"","request_fate":"challengejs","bot_category":"unknown","rule_id":""}};(()=&gt;{"use strict";const e=function*({domain:e,maxAge:n,name:o,path:a,secure:
+    &lt;!doctypehtml&gt;&lt;meta name="viewport"content="width=device-width"&gt;&lt;meta charset="utf-8"&gt;&lt;script&gt;&lt;/script&gt;&lt;script&gt;var __blnChallengeStore={"unregisterServiceWorker":false,"cookie":{"value":"O-k7dwzQZRJbzMI1u-WRIJlM-oM84ysV4seMMlDacuj5XA6GG2SglRUaYInxeXEdFwqDr91E8EsUKhNuF4B55PJLEqReIsyfmpqHwUIvUZA","path":"/","name":"bln_challengejs","maxAge":900},"checkChallengeParams":{"tracking_id":"","bot_category":"unknown","request_fate":"challengejs","rule_id":""},"domain":".franceconnect.gouv.fr"};(()=&gt;{"use strict";const e=function*({domain:e,maxAge:n,name:o,path:a,secure:t,value:i}){yield`${o
   GetRequest: 
     HTTP/1.1 200 OK
-    Date: Wed, 14 Aug 2024 13:15:51 GMT
+    Date: Sat, 14 Sep 2024 13:17:13 GMT
     Content-Type: text/html
-    Content-Length: 3909
+    Content-Length: 3888
     Connection: close
     Referrer-Policy: no-referrer
     Cache-Control: no-cache
@@ -212,10 +211,10 @@
     X-Frame-Options: DENY
     X-Content-Type-Options: nosniff
     X-XSS-Protection: 1; mode=block
-    &lt;!doctypehtml&gt;&lt;meta name="viewport"content="width=device-width"&gt;&lt;meta charset="utf-8"&gt;&lt;script&gt;&lt;/script&gt;&lt;script&gt;var __blnChallengeStore={"checkChallengeParams":{"tracking_id":"","request_fate":"challengejs","rule_id":"","bot_category":"unknown"},"cookie":{"path":"/","value":"6VKYO2FYEjBd6dtNBHdwGUWU45Sa2aDc_qZtJ7QK3ix8rdFyXiWsVlB48p_vis8kHnVIWSwA0Qp6k1mI2dmEsIRq3IpQFiTgHEOzKo__5-XX-O0a9HAoF9RvzGt8xNo0","maxAge":900,"name":"bln_challengejs"},"domain":".franceconnect.gouv.fr","unregisterServiceWorker":false};(()=&gt;{"use strict";const e=function*({domain:e,maxAge:n,name:o,path:a,secure:
+    &lt;!doctypehtml&gt;&lt;meta name="viewport"content="width=device-width"&gt;&lt;meta charset="utf-8"&gt;&lt;script&gt;&lt;/script&gt;&lt;script&gt;var __blnChallengeStore={"unregisterServiceWorker":false,"checkChallengeParams":{"rule_id":"","bot_category":"unknown","request_fate":"challengejs","tracking_id":""},"cookie":{"path":"/","maxAge":900,"value":"O-k7dwzQZRJbzMI1u-WRILPGfVBp829AAnha6umz13iUC1b8LiMjFv2bCmiQHM2iNDdZ64u06rqA99s5S06b8hUcKdanzcx6c-3WnVKwpXM","name":"bln_challengejs"},"domain":".franceconnect.gouv.fr"};(()=&gt;{"use strict";const e=function*({domain:e,maxAge:n,name:o,path:a,secure:t,value:i}){yield`${o
   HTTPOptions: 
     HTTP/1.1 400 Bad Request
-    Date: Wed, 14 Aug 2024 13:15:51 GMT
+    Date: Sat, 14 Sep 2024 13:17:14 GMT
     Content-Type: text/html
     Content-Length: 154
     Connection: close
