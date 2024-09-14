@@ -1,4 +1,1 @@
-# Nmap 7.92 scan initiated Wed Aug 14 12:48:02 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln enseignementsup-recherche.gouv.fr
-Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Status: Up
-Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Ports: 80/open/tcp//tcpwrapped///, 443/open/tcp//ssl|tcpwrapped///, 1078/closed/tcp//avocent-proxy///, 3689/closed/tcp//rendezvous///, 5633/closed/tcp//beorl///, 5987/closed/tcp//wbem-rmi///, 7741/closed/tcp//scriptview///, 8180/closed/tcp//unknown///, 8333/closed/tcp//bitcoin///, 9666/closed/tcp//zoomcp///, 9929/closed/tcp//nping-echo///, 42510/closed/tcp//caerpc///	Ignored State: filtered (988)
-# Nmap done at Wed Aug 14 12:51:09 2024 -- 1 IP address (1 host up) scanned in 187.37 seconds
+# Nmap 7.92 scan initiated Sat Sep 14 12:39:19 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln enseignementsup-recherche.gouv.fr
