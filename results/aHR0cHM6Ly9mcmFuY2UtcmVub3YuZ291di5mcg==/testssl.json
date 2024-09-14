@@ -472,7 +472,7 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "92 >= 60 days"
+              "finding"      : "61 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -626,14 +626,14 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723641818"
+              "finding"      : "1726320067"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1231,6 +1231,6 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "151"
+              "finding"      : "81"
           }
 ]
