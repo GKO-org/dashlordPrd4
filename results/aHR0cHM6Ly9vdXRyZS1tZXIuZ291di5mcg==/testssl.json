@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "outre-mer.gouv.fr/37.235.90.50",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "84 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (54)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "outre-mer.gouv.fr/37.235.90.50",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-12-07 22:59"
           }
 ,         {
@@ -542,7 +542,7 @@
               "ip"           : "outre-mer.gouv.fr/37.235.90.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726320427"
+              "finding"      : "1728912171"
           }
 ,         {
               "id"           : "HSTS_multiple",
@@ -1112,6 +1112,6 @@
               "ip"           : "outre-mer.gouv.fr/37.235.90.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "109"
+              "finding"      : "113"
           }
 ]
