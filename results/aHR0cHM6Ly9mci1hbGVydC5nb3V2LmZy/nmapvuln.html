@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln fr-alert.gouv.fr</pre>
-<p class="lead">Sat Sep 14 12:31:14 2024 – Sat Sep 14 12:31:46 2024<br>1 hosts scanned.
+<p class="lead">Mon Oct 14 12:33:30 2024 – Mon Oct 14 12:34:01 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -117,18 +117,20 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
+<h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 302 Found
-    date: Sat, 14 Sep 2024 12:31:23 GMT
+    date: Mon, 14 Oct 2024 12:33:39 GMT
     server: Apache
     location: https://www.fr-alert.gouv.fr/nice%20ports,/Trinity.txt.bak
     content-length: 242
     keep-alive: timeout=5, max=100
     content-type: text/html; charset=iso-8859-1
-    x-iplb-request-id: 146D26CE:BC46_91EFC1BA:0050_66E5821B_6C81B1:7FF0
-    x-iplb-instance: 56206
+    x-iplb-request-id: 14A14DF0:5BC6_91EFC1BA:0050_670D0FA3_239CB:4F93
+    x-iplb-instance: 56269
     connection: close
     &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
     &lt;html&gt;&lt;head&gt;
@@ -139,13 +141,13 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 302 Found
-    date: Sat, 14 Sep 2024 12:31:22 GMT
+    date: Mon, 14 Oct 2024 12:33:38 GMT
     server: Apache
     location: https://www.fr-alert.gouv.fr/
     content-length: 213
     keep-alive: timeout=5, max=100
     content-type: text/html; charset=iso-8859-1
-    x-iplb-request-id: 146D26CE:BC02_91EFC1BA:0050_66E58214_6C81AB:7FF0
+    x-iplb-request-id: 14A14DF0:5B87_91EFC1BA:0050_670D0F9C_2265F:14A5
     x-iplb-instance: 56206
     connection: close
     &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
@@ -157,13 +159,13 @@
     &lt;/body&gt;&lt;/html&gt;
   HTTPOptions: 
     HTTP/1.1 302 Found
-    date: Sat, 14 Sep 2024 12:31:22 GMT
+    date: Mon, 14 Oct 2024 12:33:38 GMT
     server: Apache
     location: https://www.fr-alert.gouv.fr/
     content-length: 213
     keep-alive: timeout=5, max=100
     content-type: text/html; charset=iso-8859-1
-    x-iplb-request-id: 146D26CE:BC40_91EFC1BA:0050_66E5821A_6C6A58:50E2
+    x-iplb-request-id: 14A14DF0:5BC0_91EFC1BA:0050_670D0FA2_239C8:4F93
     x-iplb-instance: 56269
     connection: close
     &lt;!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"&gt;
@@ -182,8 +184,6 @@
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
     Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;</pre>
-<h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
@@ -201,7 +201,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 404 Not Found
-    date: Mon, 01 Jul 2024 14:58:55 GMT
+    date: Mon, 07 Oct 2024 16:35:34 GMT
     server: Apache/2.4.62 (Ubuntu)
     cache-control: max-age=600, public
     x-drupal-dynamic-cache: HIT
@@ -213,22 +213,22 @@
     vary: Cookie
     x-generator: Drupal 9 (https://www.drupal.org)
     x-drupal-cache: MISS
-    last-modified: Sat, 14 Sep 2024 12:31:29 GMT
-    etag: "1726317089"
+    last-modified: Mon, 14 Oct 2024 12:33:45 GMT
+    etag: "1728909225"
     content-type: text/html; charset=UTF-8
-    x-varnish: 78639
+    x-varnish: 9218185
     age: 0
     via: 1.1 prd-s1-front-varnish-01 (Varnish/7.2)
-    content-length: 10834
+    content-length: 12139
     keep-alive: timeout=5, max=100
-    x-iplb-request-id: 146D26CE:BC6C_91EFC1BA:01BB_66E58221_6C81B4:7FF0
+    x-iplb-request-id: 14A14DF0:5BE8_91EFC1BA:01BB_670D0FA9_2266A:14A5
     x-iplb-instance: 56206
     connection: close
     &lt;!DOCTYPE html&gt;
-    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf
+    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foa
   GetRequest: 
     HTTP/1.1 200 OK
-    date: Mon, 26 Aug 2024 14:17:38 GMT
+    date: Tue, 08 Oct 2024 13:27:27 GMT
     server: Apache/2.4.62 (Ubuntu)
     cache-control: max-age=600, public
     x-drupal-dynamic-cache: MISS
@@ -240,23 +240,23 @@
     vary: Cookie,Accept-Encoding
     x-generator: Drupal 9 (https://www.drupal.org)
     x-drupal-cache: HIT
-    last-modified: Mon, 26 Aug 2024 14:17:38 GMT
+    last-modified: Tue, 08 Oct 2024 13:27:24 GMT
     content-type: text/html; charset=UTF-8
-    x-varnish: 756357 756333
-    age: 530
+    x-varnish: 35937177 26918298
+    age: 247
     via: 1.1 prd-s1-front-varnish-02 (Varnish/7.2)
-    etag: W/"1724681858-gzip"
+    etag: W/"1728394044-gzip"
     accept-ranges: bytes
-    content-length: 727846
+    content-length: 811207
     keep-alive: timeout=5, max=100
-    x-iplb-request-id: 146D26CE:BC65_91EFC1BA:01BB_66E5821A_6C6A59:50E2
+    x-iplb-request-id: 14A14DF0:5B81_91EFC1BA:01BB_670D0FA2_239C9:4F93
     x-iplb-instance: 56269
     connection: close
     &lt;!DOCTYPE html&gt;
-    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http:
+    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: ht
   HTTPOptions: 
     HTTP/1.1 200 OK
-    date: Sat, 14 Sep 2024 12:31:29 GMT
+    date: Mon, 14 Oct 2024 12:33:45 GMT
     server: Apache/2.4.62 (Ubuntu)
     allow: GET, POST
     cache-control: must-revalidate, no-cache, private
@@ -268,11 +268,11 @@
     x-generator: Drupal 9 (https://www.drupal.org)
     content-length: 0
     content-type: text/html; charset=UTF-8
-    x-varnish: 78637
+    x-varnish: 9218183
     age: 0
     via: 1.1 prd-s1-front-varnish-01 (Varnish/7.2)
     keep-alive: timeout=5, max=100
-    x-iplb-request-id: 146D26CE:BC6B_91EFC1BA:01BB_66E58221_6C6A62:50E2
+    x-iplb-request-id: 14A14DF0:5B87_91EFC1BA:01BB_670D0FA8_239D0:4F93
     x-iplb-instance: 56269
     connection: close</pre>
 </td></tr>
