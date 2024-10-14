@@ -269,7 +269,7 @@
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "03897AE2BDAAD88BD4974EA9A140E8D7D989"
+              "finding"      : "033BFDC1C23C5E0CE6A53D34203F64CD6E05"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "FC794D61FEE1CBB41790C2805CE95D40F6DE7BCB"
+              "finding"      : "F3DBFC082FE7210A43054A69CEA5BE09B23C29FA"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "702E2CFF6974C65C3E81294D2F64FE2774370123417AAEF6601E99A72FCEF69F"
+              "finding"      : "C867D80F947C23A4DCBF96BD83E95C109941E50D95599E937F8F003BFD6265F3"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "43 >= 30 days"
+              "finding"      : "76 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-07-30 07:00"
+              "finding"      : "2024-10-01 07:01"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-10-28 07:00"
+              "finding"      : "2024-12-30 07:01"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -507,14 +507,14 @@
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726318771"
+              "finding"      : "1728910891"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "111 seconds"
+              "finding"      : "19 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -564,7 +564,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-cacheable: YESx-varnish: 109091284 100789224via: 1.1 varnish (Varnish/6.5)x-cache: HITx-cache-hits: 7"
+              "finding"      : "x-cacheable: YESx-varnish: 127808500 110216052via: 1.1 varnish (Varnish/6.5)x-cache: HITx-cache-hits: 2"
           }
 ,         {
               "id"           : "heartbleed",
@@ -687,7 +687,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=702E2CFF6974C65C3E81294D2F64FE2774370123417AAEF6601E99A72FCEF69F"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=C867D80F947C23A4DCBF96BD83E95C109941E50D95599E937F8F003BFD6265F3"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1070,6 +1070,6 @@
               "ip"           : "europe-en-france.gouv.fr/46.105.190.177",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "67"
+              "finding"      : "98"
           }
 ]
