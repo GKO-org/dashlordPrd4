@@ -178,7 +178,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "valid for 7200 seconds only (<daily)"
+              "finding"      : "valid for 7199 seconds only (<daily)"
           }
 ,         {
               "id"           : "SSL_sessionID_support",
@@ -192,7 +192,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -339,7 +339,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "66 >= 30 days"
+              "finding"      : "36 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -486,7 +486,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "200 OK ('/')"
+              "finding"      : "301 Moved Permanently ('/')"
           }
 ,         {
               "id"           : "HTTP_clock_skew",
@@ -500,7 +500,7 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726320432"
+              "finding"      : "1728912555"
           }
 ,         {
               "id"           : "HSTS",
@@ -528,14 +528,14 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "x-powered-by: PHP/7.4.8, x-powered-by: PleskLin"
+              "finding"      : "x-powered-by: PleskLin"
           }
 ,         {
               "id"           : "cookie_count",
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 at '/'"
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
           }
 ,         {
               "id"           : "security_headers",
@@ -618,10 +618,10 @@
               "id"           : "BREACH",
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "OK",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -1056,6 +1056,6 @@
               "ip"           : "francetnp.gouv.fr/178.33.22.59",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "97"
           }
 ]
