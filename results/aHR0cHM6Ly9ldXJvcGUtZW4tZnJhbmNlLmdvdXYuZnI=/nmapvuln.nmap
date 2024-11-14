@@ -1,7 +1,7 @@
-# Nmap 7.92 scan initiated Mon Oct 14 13:02:33 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln europe-en-france.gouv.fr
-Nmap scan report for europe-en-france.gouv.fr (46.105.190.177)
-Host is up (0.15s latency).
-rDNS record for 46.105.190.177: vs1001.anct.cognix-systems.net
+# Nmap 7.92 scan initiated Thu Nov 14 13:03:44 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln europe-en-france.gouv.fr
+Nmap scan report for europe-en-france.gouv.fr (5.196.45.193)
+Host is up (0.084s latency).
+rDNS record for 5.196.45.193: vs1101.anct.cognix-systems.net
 Not shown: 997 filtered tcp ports (no-response)
 PORT     STATE SERVICE   VERSION
 80/tcp   open  http
@@ -41,11 +41,11 @@ PORT     STATE SERVICE   VERSION
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     date: Mon, 14 Oct 2024 13:02:56 GMT
+|     date: Thu, 14 Nov 2024 13:04:02 GMT
 |     server: Apache
 |     content-security-policy: frame-ancestors 'self';
 |     last-modified: Wed, 07 Dec 2022 15:23:22 GMT
-|     etag: "3c4-5ef3e80439417"
+|     etag: "3c4-5ef3e80439220"
 |     accept-ranges: bytes
 |     content-length: 964
 |     vary: Accept-Encoding
@@ -53,13 +53,13 @@ PORT     STATE SERVICE   VERSION
 |     x-content-type-options: nosniff
 |     keep-alive: timeout=2, max=500
 |     content-type: text/html
-|     set-cookie: BACKENDID=vs1003.anct; path=/
+|     set-cookie: BACKENDID=vs1103.anct; path=/
 |     cache-control: private
 |     connection: close
 |     <!DOCTYPE html>
 |     <html lang="fr">
 |     <head>
-|     <title>vs1003.anct.cognix-systems.net</title>
+|     <title>vs1103.anct.cognix-systems.net</title>
 |     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 |     <meta name="viewport" content="width=device-width, initial-scale=1" />
 |     <style>
@@ -70,16 +70,16 @@ PORT     STATE SERVICE   VERSION
 |     max-height:45%;
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
-|     date: Mon, 14 Oct 2024 13:02:57 GMT
+|     date: Thu, 14 Nov 2024 13:04:03 GMT
 |     server: Apache
 |     content-security-policy: frame-ancestors 'self';
-|     allow: GET,HEAD,POST,OPTIONS,HEAD,HEAD
+|     allow: GET,POST,OPTIONS,HEAD
 |     x-xss-protection: 0
 |     x-content-type-options: nosniff
 |     content-length: 0
 |     keep-alive: timeout=2, max=500
 |     content-type: text/html
-|     set-cookie: BACKENDID=vs1002.anct; path=/
+|     set-cookie: BACKENDID=vs1102.anct; path=/
 |     connection: close
 |   NULL: 
 |     HTTP/1.1 408 Request Time-out
@@ -132,7 +132,7 @@ PORT     STATE SERVICE   VERSION
 |_    </body></html>
 3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=10/14%Time=670D1679%P=x86_64-alpine-linux-musl%
+SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735F53C%P=x86_64-alpine-linux-musl%
 SF:r(NULL,E9,"HTTP/1\.1\x20408\x20Request\x20Time-out\r\nContent-length:\x
 SF:20110\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-
 SF:Type:\x20text/html\r\n\r\n<html><body><h1>408\x20Request\x20Time-out</h
@@ -167,22 +167,22 @@ SF:t-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\
 SF:nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\
 SF:n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/14%Time=670D1680%P=x86_64-alpine-linu
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6735F542%P=x86_64-alpine-linu
 SF:x-musl%r(NULL,E9,"HTTP/1\.1\x20408\x20Request\x20Time-out\r\nContent-le
 SF:ngth:\x20110\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nC
 SF:ontent-Type:\x20text/html\r\n\r\n<html><body><h1>408\x20Request\x20Time
 SF:-out</h1>\nYour\x20browser\x20didn't\x20send\x20a\x20complete\x20reques
 SF:t\x20in\x20time\.\n</body></html>\n")%r(GetRequest,58E,"HTTP/1\.1\x2020
-SF:0\x20OK\r\ndate:\x20Mon,\x2014\x20Oct\x202024\x2013:02:56\x20GMT\r\nser
+SF:0\x20OK\r\ndate:\x20Thu,\x2014\x20Nov\x202024\x2013:04:02\x20GMT\r\nser
 SF:ver:\x20Apache\r\ncontent-security-policy:\x20frame-ancestors\x20'self'
 SF:;\r\nlast-modified:\x20Wed,\x2007\x20Dec\x202022\x2015:23:22\x20GMT\r\n
-SF:etag:\x20\"3c4-5ef3e80439417\"\r\naccept-ranges:\x20bytes\r\ncontent-le
+SF:etag:\x20\"3c4-5ef3e80439220\"\r\naccept-ranges:\x20bytes\r\ncontent-le
 SF:ngth:\x20964\r\nvary:\x20Accept-Encoding\r\nx-xss-protection:\x200\r\nx
 SF:-content-type-options:\x20nosniff\r\nkeep-alive:\x20timeout=2,\x20max=5
-SF:00\r\ncontent-type:\x20text/html\r\nset-cookie:\x20BACKENDID=vs1003\.an
+SF:00\r\ncontent-type:\x20text/html\r\nset-cookie:\x20BACKENDID=vs1103\.an
 SF:ct;\x20path=/\r\ncache-control:\x20private\r\nconnection:\x20close\r\n\
 SF:r\n<!DOCTYPE\x20html>\n<html\x20lang=\"fr\">\n\x20\x20\x20\x20<head>\n\
-SF:x20\x20\x20\x20\x20\x20\x20\x20<title>vs1003\.anct\.cognix-systems\.net
+SF:x20\x20\x20\x20\x20\x20\x20\x20<title>vs1103\.anct\.cognix-systems\.net
 SF:</title>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"Content
 SF:-Type\"\x20content=\"text/html;\x20charset=UTF-8\">\n\x20\x20\x20\x20\x
 SF:20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-widt
@@ -193,15 +193,15 @@ SF:div\.shadow\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
 SF:x20\x20\x20position:absolute;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
 SF:\x20\x20\x20\x20\x20\x20max-width:45%;\n\x20\x20\x20\x20\x20\x20\x20\x2
 SF:0\x20\x20\x20\x20\x20\x20\x20\x20max-height:45%;\n\x20\x20\x20")%r(HTTP
-SF:Options,162,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Mon,\x2014\x20Oct\x2020
-SF:24\x2013:02:57\x20GMT\r\nserver:\x20Apache\r\ncontent-security-policy:\
-SF:x20frame-ancestors\x20'self';\r\nallow:\x20GET,HEAD,POST,OPTIONS,HEAD,H
-SF:EAD\r\nx-xss-protection:\x200\r\nx-content-type-options:\x20nosniff\r\n
-SF:content-length:\x200\r\nkeep-alive:\x20timeout=2,\x20max=500\r\ncontent
-SF:-type:\x20text/html\r\nset-cookie:\x20BACKENDID=vs1002\.anct;\x20path=/
-SF:\r\nconnection:\x20close\r\n\r\n");
+SF:Options,158,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Thu,\x2014\x20Nov\x2020
+SF:24\x2013:04:03\x20GMT\r\nserver:\x20Apache\r\ncontent-security-policy:\
+SF:x20frame-ancestors\x20'self';\r\nallow:\x20GET,POST,OPTIONS,HEAD\r\nx-x
+SF:ss-protection:\x200\r\nx-content-type-options:\x20nosniff\r\ncontent-le
+SF:ngth:\x200\r\nkeep-alive:\x20timeout=2,\x20max=500\r\ncontent-type:\x20
+SF:text/html\r\nset-cookie:\x20BACKENDID=vs1102\.anct;\x20path=/\r\nconnec
+SF:tion:\x20close\r\n\r\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port8000-TCP:V=7.92%I=7%D=10/14%Time=670D1679%P=x86_64-alpine-linux-mus
+SF-Port8000-TCP:V=7.92%I=7%D=11/14%Time=6735F53C%P=x86_64-alpine-linux-mus
 SF:l%r(NULL,E9,"HTTP/1\.1\x20408\x20Request\x20Time-out\r\nContent-length:
 SF:\x20110\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nConten
 SF:t-Type:\x20text/html\r\n\r\n<html><body><h1>408\x20Request\x20Time-out<
@@ -236,4 +236,4 @@ SF:<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20
 SF:an\x20invalid\x20request\.\n</body></html>\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Oct 14 13:03:21 2024 -- 1 IP address (1 host up) scanned in 47.76 seconds
+# Nmap done at Thu Nov 14 13:04:18 2024 -- 1 IP address (1 host up) scanned in 34.51 seconds
