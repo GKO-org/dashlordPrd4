@@ -269,7 +269,7 @@
               "ip"           : "etalab.gouv.fr/171.33.106.16",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0402D20EC33C593A338995765F72BE0295C9"
+              "finding"      : "0420BE12359BCB8E1628573BD54E5DA1C827"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "etalab.gouv.fr/171.33.106.16",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "BDC1AF314C15B5ED7596CCFFD95859710ECEB086"
+              "finding"      : "9A2AF71FD795DA8B14C75EB25890BD0F4522F1BE"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "etalab.gouv.fr/171.33.106.16",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "04036C3A658EF4DC1173CD87320017425AC5790B09FF24D4C119B34B4D91DFAA"
+              "finding"      : "A82E1A1CC650A80C1216A7A261430A51C8E2FABA70CDE018D05EB2947EF26F0A"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "etalab.gouv.fr/171.33.106.16",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFADCCA+igAwIBAgISBALSDsM8WToziZV2X3K+ApXJMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjQwODMxMjEwODEzWhcNMjQxMTI5MjEwODEyWjAZMRcwFQYDVQQDEw5ldGFsYWIuZ291di5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALQm21cOHKvqv+CmH8nP9Y75kJjXWlZ6i7nQPREz3+SvktXlpmq5XviYGOg0j8SLeTJh+FOsYN7dNvQZzpefeGa/tNr+hK+6B8tjPmox1OqbSF5fuKpSTkp6U97rvIwrysDlykFpYNNmA2vPwMiUl64vQaS8PwegTYtT5StxWOOCeSX6+nCTrdvIna8Q1aQWB+KfF55zJWVVkOyQ4pYyTUajWu5uPHeDBg3tN6ceAThnYFB6XGL4q5Swc5FQ9u7hkzOF1I3Z7WPRQBZfjGCWZ4QdKxW6JloSkdBG/ASgZS28Qz3QG9BuU8yiyEd1hfFN5Rb8i79KxsxxHOWLxVO5ceECAwEAAaOCAiYwggIiMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU8nioCluZBwhtW0Sf22adaZVHEDYwHwYDVR0jBBgwFoAUu7zDR6XkvKnGw6RyDBCNojXhyOgwVwYIKwYBBQUHAQEESzBJMCIGCCsGAQUFBzABhhZodHRwOi8vcjEwLm8ubGVuY3Iub3JnMCMGCCsGAQUFBzAChhdodHRwOi8vcjEwLmkubGVuY3Iub3JnLzAtBgNVHREEJjAkgg5ldGFsYWIuZ291di5mcoISd3d3LmV0YWxhYi5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHUASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGRqnnvEAAABAMARjBEAiAzRBi596NEGWO4FwBrNohSVJj2t/FKoJS+fKgQTf5zdgIgUVDb4ZvDep/1XeaOwAPoCKWOIyOceNjpV1jFmmG1Bm0AdwB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAZGqee8+AAAEAwBIMEYCIQCyknAk+N/ES8h7ZTCHihIkipM2JnQvFtiCj7a9/sI35QIhALYyFqR4ICrEygB2MrAJTxYsfxMfyvt3gdOtc3OmIKacMA0GCSqGSIb3DQEBCwUAA4IBAQBXOSuAlc4l0oWTwe6V5hukasueBphXC174oQxB88fQ0NwMmqKXp9kkwNllim3GiN0iSKHY+T2QWjQA99VRL028uzvtkH6Cn3sPVY4Atp9wAfFhi1OrfNzB0eySj7kBhwu3WENF3fUWbP1NU6tjNLI2ZV+w4s8Ew3i0rtXpkmSM8DAqc1Q1nfKz447eVc0XFshXViAr5c5emeu4dNyJsTJWBJdtc/s/fmw8nEoaD745ry0gABtVqcDgKb4WXtcCAxhBCpOXyii2gZvfPJtTNuImvQztBYLdDJWiVdUcnZPLne3C2g8QO8wH7Gk1eTzpcLNiemUM/Kb31Elahr4n1Wrw\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFATCCA+mgAwIBAgISBCC+EjWby44WKFc71U5docgnMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjQxMDMwMjIwNDUzWhcNMjUwMTI4MjIwNDUyWjAZMRcwFQYDVQQDEw5ldGFsYWIuZ291di5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKw0HMKNodxckGBsMVMfJ1oOVKeE/aUShCUyHD/LGACg553t2cZtil84foKFobYXZ1tlVmEq/jpsjb++eCAdWMzQlDpEz6UAQm9Muk5WSuubBpEuilhdey696p9Y2SDVBKS5Nc7EAfw5yYTJUdcOJu+MhMYqc9OzVHc38uDGSZjU1WI+unyF+aeWC/nAqM4cWQKkhGTkoNN3s1usPf2Xhc95yodbDB0nyws66nwi3qafkkVM2uGclWjR+T9e4JwA7DBlcGI9AvXmQRwQood8bUXxCcGmGlrmB6CevbaHj9ny3AVy0bGGPUrjGNwdPqV6CRYaYZ0whzieO74bh67ohK8CAwEAAaOCAicwggIjMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU4ZyRNdX8V7D4fhw0gTCjeXJXnqQwHwYDVR0jBBgwFoAUu7zDR6XkvKnGw6RyDBCNojXhyOgwVwYIKwYBBQUHAQEESzBJMCIGCCsGAQUFBzABhhZodHRwOi8vcjEwLm8ubGVuY3Iub3JnMCMGCCsGAQUFBzAChhdodHRwOi8vcjEwLmkubGVuY3Iub3JnLzAtBgNVHREEJjAkgg5ldGFsYWIuZ291di5mcoISd3d3LmV0YWxhYi5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHcAzxFW7tUufK/zh1vZaS6b6RpxZ0qwF+ysAdJbd87MOwgAAAGS36tjFQAABAMASDBGAiEA/9dE+BTbA4PR0TY5EHuiSowahQoUQrrc4Njl/VACR2sCIQCKSCKcTDnGC+Bjsk5m12wBCkgGAYKxQFEQc0B9MYEWIAB2AObSMWNAd4zBEEEG13G5zsHSQPaWhIb7uocyHf0eN45QAAABkt+rYtgAAAQDAEcwRQIgNcUChT065+iPBcObN1Dohb1wMS1B6McEPBqlaierOlsCIQCxiEcTiBA82+vvAznHblOqjcrzuKgwmEXcP1FfP4FiHzANBgkqhkiG9w0BAQsFAAOCAQEAT/IKI/EKf53Sqb2YPJwWaQM4wrvvJ1eo5cvB3T+mdhUgeeA5gMf32mEOKBDfjUpaiTLSKayyPPvTk6iVg6GvJQBKhi+qUM1w9E62ftHC5RQQFtXuNhioc0XmLBnli4jq76IdSMotf4RqvVGfPyPn4nsKdQvu4pn091hArFK0QepJUjdGqv17rhJTidZGC83IJIelIA0vff8WnXZYfclLV4deo0/U2ELe6pMUwBzI+Icabyt0YOZXM1k0NZpAJLTJ9/YXAcOKUDYxhZmBWUcW2dTBhQEPTVel+IH7C59rIMHyzf6qjw437M5GsXwkAziT99aK4VygpW6UZK3xataBCw==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "etalab.gouv.fr/171.33.106.16",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "46 >= 30 days"
+              "finding"      : "75 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "etalab.gouv.fr/171.33.106.16",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-08-31 21:08"
+              "finding"      : "2024-10-30 22:04"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "etalab.gouv.fr/171.33.106.16",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-11-29 21:08"
+              "finding"      : "2025-01-28 22:04"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,14 +500,14 @@
               "ip"           : "etalab.gouv.fr/171.33.106.16",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "etalab.gouv.fr/171.33.106.16",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728910460"
+              "finding"      : "1731588844"
           }
 ,         {
               "id"           : "HSTS",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=04036C3A658EF4DC1173CD87320017425AC5790B09FF24D4C119B34B4D91DFAA"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=A82E1A1CC650A80C1216A7A261430A51C8E2FABA70CDE018D05EB2947EF26F0A"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1063,6 +1063,6 @@
               "ip"           : "etalab.gouv.fr/171.33.106.16",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "75"
+              "finding"      : "133"
           }
 ]
