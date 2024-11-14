@@ -1,8 +1,8 @@
-# Nmap 7.92 scan initiated Mon Oct 14 13:29:56 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln francetnp.gouv.fr
-Nmap scan report for francetnp.gouv.fr (178.33.22.59)
-Host is up (0.15s latency).
-rDNS record for 178.33.22.59: ip59.ip-178-33-22.eu
-Not shown: 998 filtered tcp ports (no-response)
+# Nmap 7.92 scan initiated Thu Nov 14 13:30:27 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln francetnp.gouv.fr
+Nmap scan report for francetnp.gouv.fr (87.98.187.73)
+Host is up (0.090s latency).
+rDNS record for 87.98.187.73: ip73.ip-87-98-187.eu
+Not shown: 998 closed tcp ports (reset)
 PORT    STATE SERVICE   VERSION
 80/tcp  open  http
 | fingerprint-strings: 
@@ -10,99 +10,107 @@ PORT    STATE SERVICE   VERSION
 |     HTTP/1.1 400 Bad Request
 |     content-length: 11
 |     content-type: text/plain
-|     date: Mon, 14 Oct 2024 13:30:28 GMT
+|     date: Thu, 14 Nov 2024 13:30:44 GMT
 |     connection: close
 |     Request
 |   DNSVersionBindReqTCP: 
 |     HTTP/1.1 400 Bad Request
 |     content-length: 11
 |     content-type: text/plain
-|     date: Mon, 14 Oct 2024 13:30:27 GMT
+|     date: Thu, 14 Nov 2024 13:30:43 GMT
 |     connection: close
 |     Request
 |   FourOhFourRequest: 
 |     HTTP/1.1 426 Upgrade Required
-|     date: Mon, 14 Oct 2024 13:30:19 GMT
+|     content-length: 16
+|     content-type: text/plain
+|     date: Thu, 14 Nov 2024 13:30:39 GMT
 |     connection: close
-|     content-length: 0
+|     Upgrade Required
+|   GenericLines: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Thu, 14 Nov 2024 13:30:41 GMT
+|     connection: close
+|     Request
 |   GetRequest: 
 |     HTTP/1.1 426 Upgrade Required
-|     date: Mon, 14 Oct 2024 13:30:14 GMT
+|     content-length: 16
+|     content-type: text/plain
+|     date: Thu, 14 Nov 2024 13:30:35 GMT
 |     connection: close
-|     content-length: 0
+|     Upgrade Required
 |   HTTPOptions: 
 |     HTTP/1.1 426 Upgrade Required
-|     date: Mon, 14 Oct 2024 13:30:15 GMT
+|     content-length: 16
+|     content-type: text/plain
+|     date: Thu, 14 Nov 2024 13:30:36 GMT
 |     connection: close
-|     content-length: 0
+|     Upgrade Required
 |   Help: 
 |     HTTP/1.1 400 Bad Request
 |     content-length: 11
 |     content-type: text/plain
-|     date: Mon, 14 Oct 2024 13:30:29 GMT
+|     date: Thu, 14 Nov 2024 13:30:45 GMT
 |     connection: close
 |     Request
 |   RPCCheck: 
 |     HTTP/1.1 400 Bad Request
 |     content-length: 11
 |     content-type: text/plain
-|     date: Mon, 14 Oct 2024 13:30:26 GMT
+|     date: Thu, 14 Nov 2024 13:30:42 GMT
 |     connection: close
 |     Request
 |   RTSPRequest: 
 |     HTTP/1.1 400 Bad Request
 |     content-length: 11
 |     content-type: text/plain
-|     date: Mon, 14 Oct 2024 13:30:16 GMT
-|     connection: close
-|     Request
-|   SSLSessionReq: 
-|     HTTP/1.1 400 Bad Request
-|     content-length: 11
-|     content-type: text/plain
-|     date: Mon, 14 Oct 2024 13:30:31 GMT
+|     date: Thu, 14 Nov 2024 13:30:37 GMT
 |     connection: close
 |     Request
 |   X11Probe: 
 |     HTTP/1.1 400 Bad Request
 |     content-length: 11
 |     content-type: text/plain
-|     date: Mon, 14 Oct 2024 13:30:18 GMT
+|     date: Thu, 14 Nov 2024 13:30:38 GMT
 |     connection: close
 |_    Request
 443/tcp open  ssl/https
 |_http-server-header: nginx
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port80-TCP:V=7.92%I=7%D=10/14%Time=670D1CE7%P=x86_64-alpine-linux-musl%
-SF:r(GetRequest,6C,"HTTP/1\.1\x20426\x20Upgrade\x20Required\r\ndate:\x20Mo
-SF:n,\x2014\x20Oct\x202024\x2013:30:14\x20GMT\r\nconnection:\x20close\r\nc
-SF:ontent-length:\x200\r\n\r\n")%r(HTTPOptions,6C,"HTTP/1\.1\x20426\x20Upg
-SF:rade\x20Required\r\ndate:\x20Mon,\x2014\x20Oct\x202024\x2013:30:15\x20G
-SF:MT\r\nconnection:\x20close\r\ncontent-length:\x200\r\n\r\n")%r(RTSPRequ
-SF:est,8D,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\n
-SF:content-type:\x20text/plain\r\ndate:\x20Mon,\x2014\x20Oct\x202024\x2013
-SF::30:16\x20GMT\r\nconnection:\x20close\r\n\r\nBad\x20Request")%r(X11Prob
-SF:e,8D,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\nco
-SF:ntent-type:\x20text/plain\r\ndate:\x20Mon,\x2014\x20Oct\x202024\x2013:3
-SF:0:18\x20GMT\r\nconnection:\x20close\r\n\r\nBad\x20Request")%r(FourOhFou
-SF:rRequest,6C,"HTTP/1\.1\x20426\x20Upgrade\x20Required\r\ndate:\x20Mon,\x
-SF:2014\x20Oct\x202024\x2013:30:19\x20GMT\r\nconnection:\x20close\r\nconte
-SF:nt-length:\x200\r\n\r\n")%r(RPCCheck,8D,"HTTP/1\.1\x20400\x20Bad\x20Req
-SF:uest\r\ncontent-length:\x2011\r\ncontent-type:\x20text/plain\r\ndate:\x
-SF:20Mon,\x2014\x20Oct\x202024\x2013:30:26\x20GMT\r\nconnection:\x20close\
-SF:r\n\r\nBad\x20Request")%r(DNSVersionBindReqTCP,8D,"HTTP/1\.1\x20400\x20
-SF:Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20text/plain\
-SF:r\ndate:\x20Mon,\x2014\x20Oct\x202024\x2013:30:27\x20GMT\r\nconnection:
-SF:\x20close\r\n\r\nBad\x20Request")%r(DNSStatusRequestTCP,8D,"HTTP/1\.1\x
-SF:20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20te
-SF:xt/plain\r\ndate:\x20Mon,\x2014\x20Oct\x202024\x2013:30:28\x20GMT\r\nco
-SF:nnection:\x20close\r\n\r\nBad\x20Request")%r(Help,8D,"HTTP/1\.1\x20400\
+SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735FB7C%P=x86_64-alpine-linux-musl%
+SF:r(GetRequest,97,"HTTP/1\.1\x20426\x20Upgrade\x20Required\r\ncontent-len
+SF:gth:\x2016\r\ncontent-type:\x20text/plain\r\ndate:\x20Thu,\x2014\x20Nov
+SF:\x202024\x2013:30:35\x20GMT\r\nconnection:\x20close\r\n\r\nUpgrade\x20R
+SF:equired")%r(HTTPOptions,97,"HTTP/1\.1\x20426\x20Upgrade\x20Required\r\n
+SF:content-length:\x2016\r\ncontent-type:\x20text/plain\r\ndate:\x20Thu,\x
+SF:2014\x20Nov\x202024\x2013:30:36\x20GMT\r\nconnection:\x20close\r\n\r\nU
+SF:pgrade\x20Required")%r(RTSPRequest,8D,"HTTP/1\.1\x20400\x20Bad\x20Reque
+SF:st\r\ncontent-length:\x2011\r\ncontent-type:\x20text/plain\r\ndate:\x20
+SF:Thu,\x2014\x20Nov\x202024\x2013:30:37\x20GMT\r\nconnection:\x20close\r\
+SF:n\r\nBad\x20Request")%r(X11Probe,8D,"HTTP/1\.1\x20400\x20Bad\x20Request
+SF:\r\ncontent-length:\x2011\r\ncontent-type:\x20text/plain\r\ndate:\x20Th
+SF:u,\x2014\x20Nov\x202024\x2013:30:38\x20GMT\r\nconnection:\x20close\r\n\
+SF:r\nBad\x20Request")%r(FourOhFourRequest,97,"HTTP/1\.1\x20426\x20Upgrade
+SF:\x20Required\r\ncontent-length:\x2016\r\ncontent-type:\x20text/plain\r\
+SF:ndate:\x20Thu,\x2014\x20Nov\x202024\x2013:30:39\x20GMT\r\nconnection:\x
+SF:20close\r\n\r\nUpgrade\x20Required")%r(GenericLines,8D,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20text/p
+SF:lain\r\ndate:\x20Thu,\x2014\x20Nov\x202024\x2013:30:41\x20GMT\r\nconnec
+SF:tion:\x20close\r\n\r\nBad\x20Request")%r(RPCCheck,8D,"HTTP/1\.1\x20400\
 SF:x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20text/pla
-SF:in\r\ndate:\x20Mon,\x2014\x20Oct\x202024\x2013:30:29\x20GMT\r\nconnecti
-SF:on:\x20close\r\n\r\nBad\x20Request")%r(SSLSessionReq,8D,"HTTP/1\.1\x204
-SF:00\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20text/
-SF:plain\r\ndate:\x20Mon,\x2014\x20Oct\x202024\x2013:30:31\x20GMT\r\nconne
-SF:ction:\x20close\r\n\r\nBad\x20Request");
+SF:in\r\ndate:\x20Thu,\x2014\x20Nov\x202024\x2013:30:42\x20GMT\r\nconnecti
+SF:on:\x20close\r\n\r\nBad\x20Request")%r(DNSVersionBindReqTCP,8D,"HTTP/1\
+SF:.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x
+SF:20text/plain\r\ndate:\x20Thu,\x2014\x20Nov\x202024\x2013:30:43\x20GMT\r
+SF:\nconnection:\x20close\r\n\r\nBad\x20Request")%r(DNSStatusRequestTCP,8D
+SF:,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\nconten
+SF:t-type:\x20text/plain\r\ndate:\x20Thu,\x2014\x20Nov\x202024\x2013:30:44
+SF:\x20GMT\r\nconnection:\x20close\r\n\r\nBad\x20Request")%r(Help,8D,"HTTP
+SF:/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type
+SF::\x20text/plain\r\ndate:\x20Thu,\x2014\x20Nov\x202024\x2013:30:45\x20GM
+SF:T\r\nconnection:\x20close\r\n\r\nBad\x20Request");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Oct 14 13:30:58 2024 -- 1 IP address (1 host up) scanned in 62.01 seconds
+# Nmap done at Thu Nov 14 13:31:23 2024 -- 1 IP address (1 host up) scanned in 56.58 seconds
