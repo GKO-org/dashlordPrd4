@@ -139,137 +139,53 @@
               "finding"      : "NOT a cipher order configured"
           }
 ,         {
-              "id"           : "cipher-tls1_2_xc030",
+              "id"           : "cipher-tls1_2_xc02c",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 521   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.2   xc02c   ECDHE-ECDSA-AES256-GCM-SHA384     ECDH 521   AESGCM      256      TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
           }
 ,         {
-              "id"           : "cipher-tls1_2_xc028",
+              "id"           : "cipher-tls1_2_xc024",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+              "finding"      : "TLSv1.2   xc024   ECDHE-ECDSA-AES256-SHA384         ECDH 521   AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384"
           }
 ,         {
-              "id"           : "cipher-tls1_2_xc014",
+              "id"           : "cipher-tls1_2_xc00a",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+              "finding"      : "TLSv1.2   xc00a   ECDHE-ECDSA-AES256-SHA            ECDH 521   AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
           }
 ,         {
-              "id"           : "cipher-tls1_2_x9f",
+              "id"           : "cipher-tls1_2_xc02b",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH 2048    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.2   xc02b   ECDHE-ECDSA-AES128-GCM-SHA256     ECDH 521   AESGCM      128      TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
           }
 ,         {
-              "id"           : "cipher-tls1_2_x6b",
+              "id"           : "cipher-tls1_2_xc023",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x6b     DHE-RSA-AES256-SHA256             DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
+              "finding"      : "TLSv1.2   xc023   ECDHE-ECDSA-AES128-SHA256         ECDH 521   AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256"
           }
 ,         {
-              "id"           : "cipher-tls1_2_x39",
+              "id"           : "cipher-tls1_2_xc009",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x39     DHE-RSA-AES256-SHA                DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9d",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9d     AES256-GCM-SHA384                 RSA        AESGCM      256      TLS_RSA_WITH_AES_256_GCM_SHA384"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x3d",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x3d     AES256-SHA256                     RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x35",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc02f",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 521   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc027",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_xc013",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9e",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH 2048    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x67",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x67     DHE-RSA-AES128-SHA256             DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x33",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x33     DHE-RSA-AES128-SHA                DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x9c",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "TLSv1.2   x9c     AES128-GCM-SHA256                 RSA        AESGCM      128      TLS_RSA_WITH_AES_128_GCM_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x3c",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x3c     AES128-SHA256                     RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA256"
-          }
-,         {
-              "id"           : "cipher-tls1_2_x2f",
-              "ip"           : "france-renov.gouv.fr/31.193.53.253",
-              "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "TLSv1.2   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+              "finding"      : "TLSv1.2   xc009   ECDHE-ECDSA-AES128-SHA            ECDH 521   AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
           }
 ,         {
               "id"           : "supportedciphers_TLSv1_2",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA AES256-GCM-SHA384 AES256-SHA256 AES256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA AES128-GCM-SHA256 AES128-SHA256 AES128-SHA"
+              "finding"      : "ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA"
           }
 ,         {
               "id"           : "cipher_order",
@@ -290,14 +206,14 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA"
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "prime256v1 secp384r1 secp521r1"
+              "finding"      : "prime256v1"
           }
 ,         {
               "id"           : "TLS_extensions",
@@ -360,255 +276,549 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1"
+              "finding"      : "2"
           }
 ,         {
-              "id"           : "cert_signatureAlgorithm",
+              "id"           : "cert_signatureAlgorithm <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "SHA256 with RSA"
           }
 ,         {
-              "id"           : "cert_keySize",
+              "id"           : "cert_keySize <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "RSA 2048 bits (exponent is 65537)"
           }
 ,         {
-              "id"           : "cert_keyUsage",
+              "id"           : "cert_keyUsage <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Digital Signature, Key Encipherment"
           }
 ,         {
-              "id"           : "cert_extKeyUsage",
+              "id"           : "cert_extKeyUsage <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLS Web Server Authentication"
           }
 ,         {
-              "id"           : "cert_serialNumber",
+              "id"           : "cert_serialNumber <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "DF8508D65B7709A12FF4EB52B2E4FA44"
           }
 ,         {
-              "id"           : "cert_serialNumberLen",
+              "id"           : "cert_serialNumberLen <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "16"
           }
 ,         {
-              "id"           : "cert_fingerprintSHA1",
+              "id"           : "cert_fingerprintSHA1 <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "05ADB23068C63213BFC23126D1AC71B9FA534E5F"
           }
 ,         {
-              "id"           : "cert_fingerprintSHA256",
+              "id"           : "cert_fingerprintSHA256 <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "9D73FDAAD07D25541E9C82BD3791492517E4D0909746D734359E44248BD1DA86"
           }
 ,         {
-              "id"           : "cert",
+              "id"           : "cert <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
-              "id"           : "cert_commonName",
+              "id"           : "cert_commonName <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "france-renov.gouv.fr"
           }
 ,         {
-              "id"           : "cert_commonName_wo_SNI",
+              "id"           : "cert_commonName_wo_SNI <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "eddv-anah-portail-hap-1.eolas-services.com"
           }
 ,         {
-              "id"           : "cert_subjectAltName",
+              "id"           : "cert_subjectAltName <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "france-renov.gouv.fr"
           }
 ,         {
-              "id"           : "cert_trust",
+              "id"           : "cert_trust <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
-              "id"           : "cert_chain_of_trust",
+              "id"           : "cert_chain_of_trust <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "passed."
           }
 ,         {
-              "id"           : "cert_certificatePolicies_EV",
+              "id"           : "cert_certificatePolicies_EV <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
-              "id"           : "cert_expirationStatus",
+              "id"           : "cert_expirationStatus <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "383 >= 60 days"
+              "finding"      : "352 >= 60 days"
           }
 ,         {
-              "id"           : "cert_notBefore",
+              "id"           : "cert_notBefore <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "2024-09-30 22:00"
           }
 ,         {
-              "id"           : "cert_notAfter",
+              "id"           : "cert_notAfter <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "2025-11-01 22:59"
           }
 ,         {
-              "id"           : "cert_extlifeSpan",
+              "id"           : "cert_extlifeSpan <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "certificate has no extended life time according to browser forum"
           }
 ,         {
-              "id"           : "cert_eTLS",
+              "id"           : "cert_eTLS <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not present"
           }
 ,         {
-              "id"           : "cert_crlDistributionPoints",
+              "id"           : "cert_crlDistributionPoints <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
           }
 ,         {
-              "id"           : "cert_ocspURL",
+              "id"           : "cert_ocspURL <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
-              "id"           : "OCSP_stapling",
+              "id"           : "OCSP_stapling <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "not offered"
           }
 ,         {
-              "id"           : "cert_mustStapleExtension",
+              "id"           : "cert_mustStapleExtension <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "--"
           }
 ,         {
-              "id"           : "DNS_CAArecord",
+              "id"           : "DNS_CAArecord <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "--"
           }
 ,         {
-              "id"           : "certificate_transparency",
+              "id"           : "certificate_transparency <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "yes (certificate extension)"
           }
 ,         {
-              "id"           : "certs_countServer",
+              "id"           : "certs_countServer <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "2"
           }
 ,         {
-              "id"           : "certs_list_ordering_problem",
+              "id"           : "certs_list_ordering_problem <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
-              "id"           : "cert_caIssuers",
+              "id"           : "cert_caIssuers <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
           }
 ,         {
-              "id"           : "intermediate_cert <#1>",
+              "id"           : "intermediate_cert <#1> <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1> <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "71E653BFBF5E72515B4099BBD5EC8872812B47C6EC1FA9ADD327E1C92C9EA16D"
           }
 ,         {
-              "id"           : "intermediate_cert_notBefore <#1>",
+              "id"           : "intermediate_cert_notBefore <#1> <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "2015-11-25 11:33"
           }
 ,         {
-              "id"           : "intermediate_cert_notAfter <#1>",
+              "id"           : "intermediate_cert_notAfter <#1> <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "2025-11-22 11:33"
           }
 ,         {
-              "id"           : "intermediate_cert_expiration <#1>",
+              "id"           : "intermediate_cert_expiration <#1> <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "ok > 40 days"
           }
 ,         {
-              "id"           : "intermediate_cert_chain <#1>",
+              "id"           : "intermediate_cert_chain <#1> <hostCert#1>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Certigna Services CA <-- Certigna"
           }
 ,         {
-              "id"           : "intermediate_cert_badOCSP",
+              "id"           : "intermediate_cert_badOCSP <hostCert#1>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ECDSA with SHA256"
+          }
+,         {
+              "id"           : "cert_keySize <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "EC 256 bits (curve P-256)"
+          }
+,         {
+              "id"           : "cert_keyUsage <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Agreement"
+          }
+,         {
+              "id"           : "cert_extKeyUsage <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "092BD0B12198003A09B11E6F2D451C8D"
+          }
+,         {
+              "id"           : "cert_serialNumberLen <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "16"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1 <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "6662A08A9B7530E47E010CACE4913C7A7AF41B43"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256 <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "B545EBE1C7D4EF1539A7F9CEB738036BB3D8E6BD94FE0EC14686B67362EFB774"
+          }
+,         {
+              "id"           : "cert <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEujCCBF+gAwIBAgIQCSvQsSGYADoJsR5vLUUcjTAKBggqhkjOPQQDAjBgMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMR8wHQYDVQQDExZSYXBpZFNTTCBUTFMgRUNDIENBIEcxMB4XDTI0MTAyODAwMDAwMFoXDTI1MTEyNzIzNTk1OVowIzEhMB8GA1UEAxMYd3d3LmZyYW5jZS1yZW5vdi5nb3V2LmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaBped/r77JzGsGnl5qay7Van3BKrMYATTFolDK+lOiOKeTnFHpNa2koYOB7hfJGpCXEHrMY6omEAimekYb8Rt6OCAzYwggMyMB8GA1UdIwQYMBaAFEHfTfBhk8f8tavNfJICnQ98nAqQMB0GA1UdDgQWBBSLLEv6z+MC1bhqgxDAQ4f4lZoU6jA5BgNVHREEMjAwghh3d3cuZnJhbmNlLXJlbm92LmdvdXYuZnKCFGZyYW5jZS1yZW5vdi5nb3V2LmZyMD4GA1UdIAQ3MDUwMwYGZ4EMAQIBMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAOBgNVHQ8BAf8EBAMCA4gwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHA6Ly9jZHAucmFwaWRzc2wuY29tL1JhcGlkU1NMVExTRUNDQ0FHMS5jcmwwdgYIKwYBBQUHAQEEajBoMCYGCCsGAQUFBzABhhpodHRwOi8vc3RhdHVzLnJhcGlkc3NsLmNvbTA+BggrBgEFBQcwAoYyaHR0cDovL2NhY2VydHMucmFwaWRzc2wuY29tL1JhcGlkU1NMVExTRUNDQ0FHMS5jcnQwDAYDVR0TAQH/BAIwADCCAX0GCisGAQQB1nkCBAIEggFtBIIBaQFnAHUA3dzKNJXX4RYF55Uy+sef+D0cUN/bADoUEnYKLKy7yCoAAAGS05L77wAABAMARjBEAiBWxo8tt7IJ94EGU1xDUWjJxiOKiB+RRTJEVZ/bJVMUmAIgDzwbyxIdAxIi1ujWVsc5gyNMPAjM/1//F7auUhQ9lzEAdgDm0jFjQHeMwRBBBtdxuc7B0kD2loSG+7qHMh39HjeOUAAAAZLTkvu9AAAEAwBHMEUCIQDhoHBd/yTQp2vlqCsRWhm3tgxfD11nmdMoHOaPrzP5iQIgBja34JYs77SG3dJS1WhSJeohPQWqP3ssdss2/oySbPEAdgDM+w9qhXEJZf6Vm1PO6bJ8IumFXA2XjbapflTA/kwNsAAAAZLTkvuKAAAEAwBHMEUCIEr4VjVFXSjeIEcy0/Y6EP12Fy41vLr/EZli5jQ/qSvcAiEAowWE1jpU+6eDflm2UpwN0uUpcGcfoSSZK84tWEbszWAwCgYIKoZIzj0EAwIDSQAwRgIhAKGsmNcALvOjMLNc3J6CeWYRBlA0jiU86W11eDSKbae7AiEAzRK9012CigFBIm4ptQv4NTZkaE8xMNwkHxx7/WkvI6I=\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "www.france-renov.gouv.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "eddv-anah-portail-hap-1.eolas-services.com"
+          }
+,         {
+              "id"           : "cert_subjectAltName <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "www.france-renov.gouv.fr france-renov.gouv.fr"
+          }
+,         {
+              "id"           : "cert_trust <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "passed."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "378 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2024-10-28 00:00"
+          }
+,         {
+              "id"           : "cert_notAfter <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2025-11-27 23:59"
+          }
+,         {
+              "id"           : "cert_extlifeSpan <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://cdp.rapidssl.com/RapidSSLTLSECCCAG1.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://status.rapidssl.com"
+          }
+,         {
+              "id"           : "OCSP_stapling <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RapidSSL TLS ECC CA G1 (DigiCert Inc from US)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDSDCCAs2gAwIBAgIQDe14llNJs2jUH37j4e7R6zAKBggqhkjOPQQDAjBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMzAeFw0xNzExMDIxMjU5NThaFw0yNzExMDIxMjU5NThaMGAxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xHzAdBgNVBAMTFlJhcGlkU1NMIFRMUyBFQ0MgQ0EgRzEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS0B8sKopaFyriqw/ENK/dsQeYY/oh7ipH6DHQRRLqSaBkWipKiOOnENXi33xB3Ps3w1T1Fmu0NNbv6X/8JIAxUo4IBZjCCAWIwHQYDVR0OBBYEFEHfTfBhk8f8tavNfJICnQ98nAqQMB8GA1UdIwQYMBaAFLPbSKT5ocXYrjZBzBFjaWIpvEvGMA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBCBgNVHR8EOzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxSb290RzMuY3JsMGMGA1UdIARcMFowNwYJYIZIAYb9bAEBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCwYJYIZIAYb9bAECMAgGBmeBDAECATAIBgZngQwBAgIwCgYIKoZIzj0EAwIDaQAwZgIxAPjDxesWLPJ8wRUPGkI2cnMNzbrosi1q8Lx+dQs+i1grD8fEYmPLcFBeBxbzE5iNvgIxAOO5enRE3NmOMhVWFxq1lRBB2fF+tDeHlkpyP6ylBmQQd8UUqzHVjGFdZUOd9Ufi+Q==\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "FC16D53203BD9187D69CC99D2DA551076B4DCB298140D6751F7A012966C99FDD"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2017-11-02 12:59"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2027-11-02 12:59"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RapidSSL TLS ECC CA G1 <-- DigiCert Global Root G3"
+          }
+,         {
+              "id"           : "intermediate_cert <#2> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIICPzCCAcWgAwIBAgIQBVVWvPJepDU1w6QP1atFcjAKBggqhkjOPQQDAzBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMzAeFw0xMzA4MDExMjAwMDBaFw0zODAxMTUxMjAwMDBaMGExCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IEczMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE3afZu4q4C/sLfyHS8L6+c/MzXRq8NOrexpu80JX28MzQC7phW1FGfp4tn+6OYwwX7Adw9c+ELkCDnOg/QW07rdOkFFk2eJ0DQ+4QE2xy3q6Ip6FrtUPOZ9wj/wMco+I+o0IwQDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBhjAdBgNVHQ4EFgQUs9tIpPmhxdiuNkHMEWNpYim8S8YwCgYIKoZIzj0EAwMDaAAwZQIxAK288mw/EkrRLTnDCgmXc/SINoyIJ7vmiI1Qhadj+Z4y3maTD/HMsQmP3Wyr+mt/oAIwOWZbwmSNuJ5Q3KjVSaLtx9zRSX8XAbjIho9OjIgrqJqpisXRAL34VOKa5Vt8sycX\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "31AD6648F8104138C738F39EA4320133393E3A18CC02296EF97C2AC9EF6731D0"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2013-08-01 12:00"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2038-01-15 12:00"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2> <hostCert#2>",
+              "ip"           : "france-renov.gouv.fr/31.193.53.253",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "DigiCert Global Root G3 <-- DigiCert Global Root G3"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP <hostCert#2>",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
@@ -633,7 +843,7 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728911818"
+              "finding"      : "1731590423"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -668,7 +878,7 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "nginxserver-timing: dtSInfo;desc='0', dtRpid;desc='-1890120816'"
+              "finding"      : "nginxserver-timing: dtSInfo;desc='0', dtRpid;desc='167832289'"
           }
 ,         {
               "id"           : "banner_application",
@@ -930,21 +1140,21 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_70",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_81",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_90",
@@ -1028,35 +1238,35 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_winphone81",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 AES128-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win10",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-edge_15_win10",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-edge_101_win10_21h2",
@@ -1098,7 +1308,7 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-java1102",
@@ -1126,21 +1336,21 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305"
           }
 ,         {
               "id"           : "clientsimulation-openssl_102e",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_110l",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_111d",
@@ -1161,7 +1371,7 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-thunderbird_91_9",
@@ -1245,6 +1455,6 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "136"
+              "finding"      : "79"
           }
 ]

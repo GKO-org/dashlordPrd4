@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln france-renov.gouv.fr</pre>
-<p class="lead">Mon Oct 14 13:18:13 2024 – Mon Oct 14 13:18:56 2024<br>1 hosts scanned.
+<p class="lead">Thu Nov 14 13:21:09 2024 – Thu Nov 14 13:22:14 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -78,7 +78,7 @@
 <td><span class="label label-success">up</span></td>
 <td>31.193.53.253</td>
 <td>france-renov.gouv.fr</td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -108,6 +108,38 @@
 </tr></thead>
 <tbody>
 <tr class="success">
+<td title="Port">80</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">http</td>
+<td title="Product"></td>
+<td title="Version"></td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, SSLSessionReq, X11Probe: 
+    HTTP/1.0 400 Bad request
+    cache-control: no-cache
+    content-type: text/html
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
+    &lt;/body&gt;&lt;/html&gt;
+  FourOhFourRequest: 
+    HTTP/1.1 302 Found
+    content-length: 0
+    location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
+    cache-control: no-cache
+    connection: close
+  GetRequest, HTTPOptions, RTSPRequest: 
+    HTTP/1.1 302 Found
+    content-length: 0
+    location: https:///
+    cache-control: no-cache
+    connection: close</pre>
+</td></tr>
+<tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
@@ -117,11 +149,15 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  Apache
+  nginx</pre>
+<h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 404 Not Found
-    date: Mon, 14 Oct 2024 13:18:36 GMT
+    date: Thu, 14 Nov 2024 13:21:54 GMT
     server: Apache
     content-length: 196
     content-type: text/html; charset=iso-8859-1
@@ -140,14 +176,14 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 200 OK
-    date: Mon, 14 Oct 2024 13:18:35 GMT
+    date: Thu, 14 Nov 2024 13:21:54 GMT
     server: Apache
     upgrade: h2,h2c
     connection: Upgrade
-    last-modified: Thu, 12 Sep 2024 12:19:16 GMT
-    etag: "150fc-621eb1d832464"
+    last-modified: Thu, 06 Jun 2024 12:30:10 GMT
+    etag: "126de-61a37d80846cb"
     accept-ranges: bytes
-    content-length: 86268
+    content-length: 75486
     vary: Accept-Encoding
     content-type: text/html
     strict-transport-security: max-age=16000000;includeSubDomains;
@@ -163,10 +199,10 @@
     &lt;title&gt;Anah&lt;/title&gt;
     &lt;link rel="icon" type="image/svg" href="https://agrement.anah.gouv.fr/assets/logos/logo-mar.svg"&gt;
     &lt;style&gt;&lt;/style&gt;
-    &lt;link rel="stylesheet" href="assets/styles.b435e6387cdd17c0.css" media="all" onload="this.
+    &lt;link rel="stylesheet" href="assets/styles.b435e6387cdd17c0.css" media="all" onloa
   HTTPOptions: 
     HTTP/1.1 200 OK
-    date: Mon, 14 Oct 2024 13:18:36 GMT
+    date: Thu, 14 Nov 2024 13:21:54 GMT
     server: Apache
     upgrade: h2,h2c
     connection: Upgrade
@@ -178,10 +214,6 @@
     x-content-type-options: nosniff
     referrer-policy: no-referrer-when-downgrade
     x-xss-protection: 1 ;mode=block</pre>
-<h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  Apache
-  nginx</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -199,7 +231,18 @@
 <th>CPE</th>
 <th>Extra info</th>
 </tr></thead>
-<tbody><tr>
+<tbody>
+<tr>
+<td>31.193.53.253 - france-renov.gouv.fr</td>
+<td>80</td>
+<td>tcp</td>
+<td>http</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
 <td>31.193.53.253 - france-renov.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
@@ -208,7 +251,8 @@
 <td></td>
 <td></td>
 <td></td>
-</tr></tbody>
+</tr>
+</tbody>
 </table></div>
 <script>
             $(document).ready(function() {
