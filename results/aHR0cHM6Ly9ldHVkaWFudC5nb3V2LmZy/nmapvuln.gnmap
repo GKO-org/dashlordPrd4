@@ -1,1 +1,4 @@
-# Nmap 7.92 scan initiated Thu Nov 14 12:57:03 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln etudiant.gouv.fr
+# Nmap 7.92 scan initiated Sat Dec 14 12:58:01 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln etudiant.gouv.fr
+Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Status: Up
+Host: 185.75.143.93 (men-tandem-lb-vip.dedie.ate.info)	Ports: 80/open/tcp//tcpwrapped///	Ignored State: filtered (999)
+# Nmap done at Sat Dec 14 13:03:19 2024 -- 1 IP address (1 host up) scanned in 318.27 seconds
