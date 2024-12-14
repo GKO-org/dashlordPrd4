@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Thu Nov 14 12:51:10 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln esante.gouv.fr
+# Nmap 7.92 scan initiated Sat Dec 14 12:49:23 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln esante.gouv.fr
 Nmap scan report for esante.gouv.fr (37.59.26.43)
 Host is up (0.15s latency).
 rDNS record for 37.59.26.43: ns329358.ip-37-59-26.eu
@@ -29,7 +29,7 @@ PORT     STATE  SERVICE      VERSION
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.1 404 Not Found
-|     date: Thu, 14 Nov 2024 12:51:36 GMT
+|     date: Sat, 14 Dec 2024 12:49:49 GMT
 |     server: Apache
 |     cache-control: must-revalidate, no-cache, private
 |     x-drupal-dynamic-cache: UNCACHEABLE
@@ -48,7 +48,7 @@ PORT     STATE  SERVICE      VERSION
 |     <html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema: http://schema.org/ sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: ht
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     date: Thu, 14 Nov 2024 12:51:34 GMT
+|     date: Sat, 14 Dec 2024 12:49:47 GMT
 |     server: Apache
 |     cache-control: must-revalidate, no-cache, private
 |     x-drupal-dynamic-cache: UNCACHEABLE
@@ -68,7 +68,7 @@ PORT     STATE  SERVICE      VERSION
 |     <html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema: http://schema.org/ sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/sko
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
-|     date: Thu, 14 Nov 2024 12:51:35 GMT
+|     date: Sat, 14 Dec 2024 12:49:48 GMT
 |     server: Apache
 |     allow: GET, POST
 |     cache-control: must-revalidate, no-cache, private
@@ -89,7 +89,7 @@ PORT     STATE  SERVICE      VERSION
 1026/tcp closed LSA-or-nterm
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735F24E%P=x86_64-alpine-linux-musl%
+SF-Port80-TCP:V=7.92%I=7%D=12/14%Time=675D7EE3%P=x86_64-alpine-linux-musl%
 SF:r(GetRequest,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-le
 SF:ngth:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n")%
 SF:r(HTTPOptions,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-l
@@ -122,9 +122,9 @@ SF:\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x
 SF:20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20
 SF:browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6735F256%P=x86_64-alpine-linu
-SF:x-musl%r(GetRequest,4000,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Thu,\x2014
-SF:\x20Nov\x202024\x2012:51:34\x20GMT\r\nserver:\x20Apache\r\ncache-contro
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=12/14%Time=675D7EEB%P=x86_64-alpine-linu
+SF:x-musl%r(GetRequest,4000,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Sat,\x2014
+SF:\x20Dec\x202024\x2012:49:47\x20GMT\r\nserver:\x20Apache\r\ncache-contro
 SF:l:\x20must-revalidate,\x20no-cache,\x20private\r\nx-drupal-dynamic-cach
 SF:e:\x20UNCACHEABLE\r\ncontent-language:\x20fr\r\nx-frame-options:\x20SAM
 SF:EORIGIN\r\nexpires:\x20-1\r\nx-generator:\x20Drupal\x2010\x20\(https://
@@ -140,7 +140,7 @@ SF://ogp\.me/ns#\x20\x20rdfs:\x20http://www\.w3\.org/2000/01/rdf-schema#\x
 SF:20\x20schema:\x20http://schema\.org/\x20\x20sioc:\x20http://rdfs\.org/s
 SF:ioc/ns#\x20\x20sioct:\x20http://rdfs\.org/sioc/types#\x20\x20skos:\x20h
 SF:ttp://www\.w3\.org/2004/02/sko")%r(HTTPOptions,1FF,"HTTP/1\.1\x20200\x2
-SF:0OK\r\ndate:\x20Thu,\x2014\x20Nov\x202024\x2012:51:35\x20GMT\r\nserver:
+SF:0OK\r\ndate:\x20Sat,\x2014\x20Dec\x202024\x2012:49:48\x20GMT\r\nserver:
 SF:\x20Apache\r\nallow:\x20GET,\x20POST\r\ncache-control:\x20must-revalida
 SF:te,\x20no-cache,\x20private\r\ncontent-language:\x20fr\r\nx-frame-optio
 SF:ns:\x20SAMEORIGIN\r\nexpires:\x20-1\r\nx-generator:\x20Drupal\x2010\x20
@@ -149,8 +149,8 @@ SF:x200\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r\nstrict-transpor
 SF:t-security:\x20max-age=31536000;\x20preload\r\nx-xss-protection:\x201;\
 SF:x20mode=block\r\nx-content-type-options:\x20nosniff\r\nx-permitted-cros
 SF:s-domain-policies:\x20none\r\nconnection:\x20close\r\n\r\n")%r(FourOhFo
-SF:urRequest,4000,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Thu,\x2014
-SF:\x20Nov\x202024\x2012:51:36\x20GMT\r\nserver:\x20Apache\r\ncache-contro
+SF:urRequest,4000,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Sat,\x2014
+SF:\x20Dec\x202024\x2012:49:49\x20GMT\r\nserver:\x20Apache\r\ncache-contro
 SF:l:\x20must-revalidate,\x20no-cache,\x20private\r\nx-drupal-dynamic-cach
 SF:e:\x20UNCACHEABLE\r\ncontent-language:\x20fr\r\nx-frame-options:\x20SAM
 SF:EORIGIN\r\nexpires:\x20-1\r\nx-generator:\x20Drupal\x2010\x20\(https://
@@ -168,4 +168,4 @@ SF:p://rdfs\.org/sioc/types#\x20\x20skos:\x20http://www\.w3\.org/2004/02/s
 SF:kos/core#\x20\x20xsd:\x20ht");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Nov 14 12:52:03 2024 -- 1 IP address (1 host up) scanned in 52.74 seconds
+# Nmap done at Sat Dec 14 12:50:16 2024 -- 1 IP address (1 host up) scanned in 53.25 seconds
