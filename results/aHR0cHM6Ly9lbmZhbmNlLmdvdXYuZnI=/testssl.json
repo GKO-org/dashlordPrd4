@@ -346,7 +346,7 @@
               "ip"           : "enfance.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "180 >= 60 days"
+              "finding"      : "150 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -536,6 +536,27 @@
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "0 at '/'"
+          }
+,         {
+              "id"           : "X-Frame-Options",
+              "ip"           : "enfance.gouv.fr/185.194.82.206",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SAMEORIGIN"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "enfance.gouv.fr/185.194.82.206",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "X-XSS-Protection",
+              "ip"           : "enfance.gouv.fr/185.194.82.206",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1; mode=block"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -1063,6 +1084,6 @@
               "ip"           : "enfance.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "85"
+              "finding"      : "51"
           }
 ]
