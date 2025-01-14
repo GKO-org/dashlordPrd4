@@ -388,7 +388,7 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "322 >= 60 days"
+              "finding"      : "291 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#1>",
@@ -640,7 +640,7 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "348 >= 60 days"
+              "finding"      : "317 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore <hostCert#2>",
@@ -836,14 +836,14 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-2 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734182731"
+              "finding"      : "1736860945"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -878,7 +878,7 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "nginxserver-timing: dtSInfo;desc='0', dtRpid;desc='-322411317'"
+              "finding"      : "nginxserver-timing: dtSInfo;desc='0', dtRpid;desc='383280689'"
           }
 ,         {
               "id"           : "banner_application",
@@ -1462,6 +1462,6 @@
               "ip"           : "france-renov.gouv.fr/31.193.53.253",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "134"
+              "finding"      : "150"
           }
 ]
