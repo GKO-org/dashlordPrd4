@@ -1,1 +1,20 @@
-# Nmap 7.92 scan initiated Sat Dec 14 12:27:07 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln education.gouv.fr
+# Nmap 7.92 scan initiated Tue Jan 14 12:27:20 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln education.gouv.fr
+Nmap scan report for education.gouv.fr (185.75.143.93)
+Host is up (0.16s latency).
+rDNS record for 185.75.143.93: men-tandem-lb-vip.dedie.ate.info
+Not shown: 991 filtered tcp ports (no-response)
+PORT      STATE  SERVICE        VERSION
+80/tcp    open   tcpwrapped
+|_http-server-header: nginx
+443/tcp   open   ssl/tcpwrapped
+|_http-server-header: nginx
+1076/tcp  closed sns_credit
+1717/tcp  closed fj-hdnet
+3071/tcp  closed csd-mgmt-port
+3369/tcp  closed satvid-datalnk
+4006/tcp  closed pxc-spvr
+5298/tcp  closed presence
+10616/tcp closed unknown
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jan 14 12:30:50 2025 -- 1 IP address (1 host up) scanned in 210.13 seconds
