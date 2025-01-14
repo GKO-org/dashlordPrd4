@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln francetnp.gouv.fr</pre>
-<p class="lead">Sat Dec 14 13:36:41 2024 – Sat Dec 14 13:37:38 2024<br>1 hosts scanned.
+<p class="lead">Tue Jan 14 13:30:36 2025 – Tue Jan 14 13:31:23 2025<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>87.98.187.73</td>
+<td>95.128.47.156</td>
 <td>francetnp.gouv.fr</td>
 <td>2</td>
 <td>0</td>
@@ -91,12 +91,12 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#87-98-187-73"><h3 class="panel-title">87.98.187.73 - francetnp.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="87-98-187-73">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#95-128-47-156"><h3 class="panel-title">95.128.47.156 - francetnp.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="95-128-47-156">
 <h4>Hostnames</h4>
 <ul>
 <li>francetnp.gouv.fr (user)</li>
-<li>ip73.ip-87-98-187.eu (PTR)</li>
+<li>web.aquaray.com (PTR)</li>
 </ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
@@ -122,76 +122,22 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  DNSStatusRequestTCP: 
-    HTTP/1.1 400 Bad Request
-    content-length: 11
-    content-type: text/plain
-    date: Sat, 14 Dec 2024 13:36:59 GMT
-    connection: close
-    Request
-  DNSVersionBindReqTCP: 
-    HTTP/1.1 400 Bad Request
-    content-length: 11
-    content-type: text/plain
-    date: Sat, 14 Dec 2024 13:36:58 GMT
-    connection: close
-    Request
-  FourOhFourRequest: 
-    HTTP/1.1 426 Upgrade Required
-    content-length: 16
-    content-type: text/plain
-    date: Sat, 14 Dec 2024 13:36:54 GMT
-    connection: close
-    Upgrade Required
-  GenericLines: 
-    HTTP/1.1 400 Bad Request
-    content-length: 11
-    content-type: text/plain
-    date: Sat, 14 Dec 2024 13:36:55 GMT
-    connection: close
-    Request
-  GetRequest: 
-    HTTP/1.1 426 Upgrade Required
-    content-length: 16
-    content-type: text/plain
-    date: Sat, 14 Dec 2024 13:36:49 GMT
-    connection: close
-    Upgrade Required
-  HTTPOptions: 
-    HTTP/1.1 426 Upgrade Required
-    content-length: 16
-    content-type: text/plain
-    date: Sat, 14 Dec 2024 13:36:50 GMT
-    connection: close
-    Upgrade Required
-  Help: 
-    HTTP/1.1 400 Bad Request
-    content-length: 11
-    content-type: text/plain
-    date: Sat, 14 Dec 2024 13:37:00 GMT
-    connection: close
-    Request
-  RPCCheck: 
-    HTTP/1.1 400 Bad Request
-    content-length: 11
-    content-type: text/plain
-    date: Sat, 14 Dec 2024 13:36:56 GMT
-    connection: close
-    Request
-  RTSPRequest: 
-    HTTP/1.1 400 Bad Request
-    content-length: 11
-    content-type: text/plain
-    date: Sat, 14 Dec 2024 13:36:51 GMT
-    connection: close
-    Request
-  X11Probe: 
-    HTTP/1.1 400 Bad Request
-    content-length: 11
-    content-type: text/plain
-    date: Sat, 14 Dec 2024 13:36:53 GMT
-    connection: close
-    Request</pre>
+  DNSStatusRequestTCP, DNSVersionBindReqTCP, RPCCheck, RTSPRequest, X11Probe: 
+    HTTP/1.1 400 Bad request
+    Content-length: 90
+    Cache-Control: no-cache
+    Connection: close
+    Content-Type: text/html
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
+    &lt;/body&gt;&lt;/html&gt;
+  FourOhFourRequest, GetRequest, HTTPOptions: 
+    HTTP/1.0 403 Forbidden
+    cache-control: no-cache
+    content-type: text/html
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
+    Request forbidden by administrative rules.
+    &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
@@ -203,8 +149,24 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">nginx</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  DNSStatusRequestTCP, DNSVersionBindReqTCP, RPCCheck, RTSPRequest, tor-versions: 
+    HTTP/1.1 400 Bad request
+    Content-length: 90
+    Cache-Control: no-cache
+    Connection: close
+    Content-Type: text/html
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
+    &lt;/body&gt;&lt;/html&gt;
+  FourOhFourRequest, GetRequest, HTTPOptions: 
+    HTTP/1.0 403 Forbidden
+    cache-control: no-cache
+    content-type: text/html
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
+    Request forbidden by administrative rules.
+    &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -224,7 +186,7 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>87.98.187.73 - francetnp.gouv.fr</td>
+<td>95.128.47.156 - francetnp.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
@@ -234,7 +196,7 @@
 <td></td>
 </tr>
 <tr>
-<td>87.98.187.73 - francetnp.gouv.fr</td>
+<td>95.128.47.156 - francetnp.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
