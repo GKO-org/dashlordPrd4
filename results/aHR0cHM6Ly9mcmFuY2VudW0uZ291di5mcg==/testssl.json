@@ -321,6 +321,13 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "francenum.gouv.fr/45.223.153.83",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "francenum.gouv.fr/45.223.153.83",
               "port"         : "443",
@@ -338,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "francenum.gouv.fr/45.223.153.83",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "77 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (46)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "francenum.gouv.fr/45.223.153.83",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-04-01 21:59"
           }
 ,         {
@@ -1380,6 +1387,13 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "francenum.gouv.fr/45.223.60.83",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "francenum.gouv.fr/45.223.60.83",
               "port"         : "443",
@@ -1397,8 +1411,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "francenum.gouv.fr/45.223.60.83",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "77 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (46)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1411,7 +1425,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "francenum.gouv.fr/45.223.60.83",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-04-01 21:59"
           }
 ,         {
@@ -2122,6 +2136,6 @@
               "ip"           : "francenum.gouv.fr/45.223.60.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "140"
+              "finding"      : "128"
           }
 ]
