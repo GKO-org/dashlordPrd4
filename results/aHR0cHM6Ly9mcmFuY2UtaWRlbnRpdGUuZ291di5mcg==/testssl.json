@@ -328,6 +328,13 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "france-identite.gouv.fr/148.253.96.193",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
@@ -346,7 +353,7 @@
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "83 >= 30 days"
+              "finding"      : "52 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +514,7 @@
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736858052"
+              "finding"      : "1739536628"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -578,6 +585,13 @@
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "default-src 'self' https://www.youtube-nocookie.com data:;script-src 'self' 'unsafe-inline' 'unsafe-eval' https://byac.france-identite.gouv.fr;img-src 'self' data: https://*.ytimg.com;frame-src 'self' https://www.youtube-nocookie.com https://stonly.com https://rendezvouspasseport.ants.gouv.fr;base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+          }
+,         {
+              "id"           : "Cross-Origin-Opener-Policy",
+              "ip"           : "france-identite.gouv.fr/148.253.96.193",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "same-origin"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -1112,6 +1126,6 @@
               "ip"           : "france-identite.gouv.fr/148.253.96.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "57"
+              "finding"      : "58"
           }
 ]
