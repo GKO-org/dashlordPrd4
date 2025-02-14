@@ -346,7 +346,7 @@
               "ip"           : "francearchives.gouv.fr/51.210.253.164",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "132 >= 60 days"
+              "finding"      : "101 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,21 +500,21 @@
               "ip"           : "francearchives.gouv.fr/51.210.253.164",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+4449 seconds from localtime"
+              "finding"      : "+391 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "francearchives.gouv.fr/51.210.253.164",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736860256"
+              "finding"      : "1739538440"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "francearchives.gouv.fr/51.210.253.164",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4449 seconds"
+              "finding"      : "391 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -592,7 +592,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Varnish: 4862095 24202055Via: 1.1 varnish (Varnish/6.5)"
+              "finding"      : "X-Varnish: 524502 917506Via: 1.1 varnish (Varnish/6.5)"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1091,6 +1091,6 @@
               "ip"           : "francearchives.gouv.fr/51.210.253.164",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "103"
+              "finding"      : "73"
           }
 ]
