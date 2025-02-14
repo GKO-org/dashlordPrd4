@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Tue Jan 14 12:49:55 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln esante.gouv.fr
+# Nmap 7.92 scan initiated Fri Feb 14 12:49:24 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln esante.gouv.fr
 Nmap scan report for esante.gouv.fr (37.59.26.43)
-Host is up (0.10s latency).
+Host is up (0.15s latency).
 rDNS record for 37.59.26.43: ns329358.ip-37-59-26.eu
 Not shown: 996 filtered tcp ports (no-response)
 PORT     STATE  SERVICE      VERSION
@@ -26,70 +26,73 @@ PORT     STATE  SERVICE      VERSION
 |     location: https:///
 |_    connection: close
 443/tcp  open   ssl/https    Apache
-|_http-server-header: Apache
 | fingerprint-strings: 
 |   FourOhFourRequest: 
-|     HTTP/1.1 404 Not Found
-|     date: Tue, 14 Jan 2025 12:50:18 GMT
+|     HTTP/1.1 503 Service Unavailable
+|     date: Fri, 14 Feb 2025 12:49:48 GMT
 |     server: Apache
-|     cache-control: must-revalidate, no-cache, private
-|     x-drupal-dynamic-cache: UNCACHEABLE
-|     content-language: fr
-|     x-frame-options: SAMEORIGIN
-|     expires: -1
-|     x-generator: Drupal 10 (https://www.drupal.org)
-|     pragma: no-cache
-|     content-type: text/html; charset=UTF-8
+|     content-length: 299
+|     content-type: text/html; charset=iso-8859-1
 |     strict-transport-security: max-age=31536000; preload
 |     x-xss-protection: 1; mode=block
 |     x-content-type-options: nosniff
 |     x-permitted-cross-domain-policies: none
 |     connection: close
-|     <!DOCTYPE html>
-|     <html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema: http://schema.org/ sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: ht
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>503 Service Unavailable</title>
+|     </head><body>
+|     <h1>Service Unavailable</h1>
+|     <p>The server is temporarily unable to service your
+|     request due to maintenance downtime or capacity
+|     problems. Please try again later.</p>
+|     </body></html>
 |   GetRequest: 
-|     HTTP/1.1 200 OK
-|     date: Tue, 14 Jan 2025 12:50:17 GMT
+|     HTTP/1.1 503 Service Unavailable
+|     date: Fri, 14 Feb 2025 12:49:46 GMT
 |     server: Apache
-|     cache-control: must-revalidate, no-cache, private
-|     x-drupal-dynamic-cache: UNCACHEABLE
-|     content-language: fr
-|     x-frame-options: SAMEORIGIN
-|     expires: -1
-|     x-generator: Drupal 10 (https://www.drupal.org)
-|     pragma: no-cache
-|     vary: Accept-Encoding
-|     content-type: text/html; charset=UTF-8
+|     content-length: 299
+|     content-type: text/html; charset=iso-8859-1
 |     strict-transport-security: max-age=31536000; preload
 |     x-xss-protection: 1; mode=block
 |     x-content-type-options: nosniff
 |     x-permitted-cross-domain-policies: none
 |     connection: close
-|     <!DOCTYPE html>
-|     <html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# schema: http://schema.org/ sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/sko
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>503 Service Unavailable</title>
+|     </head><body>
+|     <h1>Service Unavailable</h1>
+|     <p>The server is temporarily unable to service your
+|     request due to maintenance downtime or capacity
+|     problems. Please try again later.</p>
+|     </body></html>
 |   HTTPOptions: 
-|     HTTP/1.1 200 OK
-|     date: Tue, 14 Jan 2025 12:50:17 GMT
+|     HTTP/1.1 503 Service Unavailable
+|     date: Fri, 14 Feb 2025 12:49:47 GMT
 |     server: Apache
-|     allow: GET, POST
-|     cache-control: must-revalidate, no-cache, private
-|     content-language: fr
-|     x-frame-options: SAMEORIGIN
-|     expires: -1
-|     x-generator: Drupal 10 (https://www.drupal.org)
-|     pragma: no-cache
-|     content-length: 0
-|     content-type: text/html; charset=UTF-8
+|     content-length: 299
+|     content-type: text/html; charset=iso-8859-1
 |     strict-transport-security: max-age=31536000; preload
 |     x-xss-protection: 1; mode=block
 |     x-content-type-options: nosniff
 |     x-permitted-cross-domain-policies: none
-|_    connection: close
+|     connection: close
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>503 Service Unavailable</title>
+|     </head><body>
+|     <h1>Service Unavailable</h1>
+|     <p>The server is temporarily unable to service your
+|     request due to maintenance downtime or capacity
+|     problems. Please try again later.</p>
+|_    </body></html>
+|_http-server-header: Apache
 1025/tcp closed NFS-or-IIS
 1026/tcp closed LSA-or-nterm
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=1/14%Time=67865D81%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=2/14%Time=67AF3BE4%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-len
 SF:gth:\x200\r\nlocation:\x20https:///\r\nconnection:\x20close\r\n\r\n")%r
 SF:(HTTPOptions,5D,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\ncontent-le
@@ -122,50 +125,43 @@ SF:nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x2
 SF:0text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20b
 SF:rowser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=67865D89%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,4000,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Tue,\x2014\
-SF:x20Jan\x202025\x2012:50:17\x20GMT\r\nserver:\x20Apache\r\ncache-control
-SF::\x20must-revalidate,\x20no-cache,\x20private\r\nx-drupal-dynamic-cache
-SF::\x20UNCACHEABLE\r\ncontent-language:\x20fr\r\nx-frame-options:\x20SAME
-SF:ORIGIN\r\nexpires:\x20-1\r\nx-generator:\x20Drupal\x2010\x20\(https://w
-SF:ww\.drupal\.org\)\r\npragma:\x20no-cache\r\nvary:\x20Accept-Encoding\r\
-SF:ncontent-type:\x20text/html;\x20charset=UTF-8\r\nstrict-transport-secur
-SF:ity:\x20max-age=31536000;\x20preload\r\nx-xss-protection:\x201;\x20mode
-SF:=block\r\nx-content-type-options:\x20nosniff\r\nx-permitted-cross-domai
-SF:n-policies:\x20none\r\nconnection:\x20close\r\n\r\n<!DOCTYPE\x20html>\n
-SF:<html\x20\x20lang=\"fr\"\x20dir=\"ltr\"\x20prefix=\"content:\x20http://
-SF:purl\.org/rss/1\.0/modules/content/\x20\x20dc:\x20http://purl\.org/dc/t
-SF:erms/\x20\x20foaf:\x20http://xmlns\.com/foaf/0\.1/\x20\x20og:\x20http:/
-SF:/ogp\.me/ns#\x20\x20rdfs:\x20http://www\.w3\.org/2000/01/rdf-schema#\x2
-SF:0\x20schema:\x20http://schema\.org/\x20\x20sioc:\x20http://rdfs\.org/si
-SF:oc/ns#\x20\x20sioct:\x20http://rdfs\.org/sioc/types#\x20\x20skos:\x20ht
-SF:tp://www\.w3\.org/2004/02/sko")%r(HTTPOptions,1FF,"HTTP/1\.1\x20200\x20
-SF:OK\r\ndate:\x20Tue,\x2014\x20Jan\x202025\x2012:50:17\x20GMT\r\nserver:\
-SF:x20Apache\r\nallow:\x20GET,\x20POST\r\ncache-control:\x20must-revalidat
-SF:e,\x20no-cache,\x20private\r\ncontent-language:\x20fr\r\nx-frame-option
-SF:s:\x20SAMEORIGIN\r\nexpires:\x20-1\r\nx-generator:\x20Drupal\x2010\x20\
-SF:(https://www\.drupal\.org\)\r\npragma:\x20no-cache\r\ncontent-length:\x
-SF:200\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r\nstrict-transport
-SF:-security:\x20max-age=31536000;\x20preload\r\nx-xss-protection:\x201;\x
-SF:20mode=block\r\nx-content-type-options:\x20nosniff\r\nx-permitted-cross
-SF:-domain-policies:\x20none\r\nconnection:\x20close\r\n\r\n")%r(FourOhFou
-SF:rRequest,4000,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Tue,\x2014\
-SF:x20Jan\x202025\x2012:50:18\x20GMT\r\nserver:\x20Apache\r\ncache-control
-SF::\x20must-revalidate,\x20no-cache,\x20private\r\nx-drupal-dynamic-cache
-SF::\x20UNCACHEABLE\r\ncontent-language:\x20fr\r\nx-frame-options:\x20SAME
-SF:ORIGIN\r\nexpires:\x20-1\r\nx-generator:\x20Drupal\x2010\x20\(https://w
-SF:ww\.drupal\.org\)\r\npragma:\x20no-cache\r\ncontent-type:\x20text/html;
-SF:\x20charset=UTF-8\r\nstrict-transport-security:\x20max-age=31536000;\x2
-SF:0preload\r\nx-xss-protection:\x201;\x20mode=block\r\nx-content-type-opt
-SF:ions:\x20nosniff\r\nx-permitted-cross-domain-policies:\x20none\r\nconne
-SF:ction:\x20close\r\n\r\n<!DOCTYPE\x20html>\n<html\x20\x20lang=\"fr\"\x20
-SF:dir=\"ltr\"\x20prefix=\"content:\x20http://purl\.org/rss/1\.0/modules/c
-SF:ontent/\x20\x20dc:\x20http://purl\.org/dc/terms/\x20\x20foaf:\x20http:/
-SF:/xmlns\.com/foaf/0\.1/\x20\x20og:\x20http://ogp\.me/ns#\x20\x20rdfs:\x2
-SF:0http://www\.w3\.org/2000/01/rdf-schema#\x20\x20schema:\x20http://schem
-SF:a\.org/\x20\x20sioc:\x20http://rdfs\.org/sioc/ns#\x20\x20sioct:\x20http
-SF:://rdfs\.org/sioc/types#\x20\x20skos:\x20http://www\.w3\.org/2004/02/sk
-SF:os/core#\x20\x20xsd:\x20ht");
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/14%Time=67AF3BEA%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,27A,"HTTP/1\.1\x20503\x20Service\x20Unavailable\r\nd
+SF:ate:\x20Fri,\x2014\x20Feb\x202025\x2012:49:46\x20GMT\r\nserver:\x20Apac
+SF:he\r\ncontent-length:\x20299\r\ncontent-type:\x20text/html;\x20charset=
+SF:iso-8859-1\r\nstrict-transport-security:\x20max-age=31536000;\x20preloa
+SF:d\r\nx-xss-protection:\x201;\x20mode=block\r\nx-content-type-options:\x
+SF:20nosniff\r\nx-permitted-cross-domain-policies:\x20none\r\nconnection:\
+SF:x20close\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x
+SF:202\.0//EN\">\n<html><head>\n<title>503\x20Service\x20Unavailable</titl
+SF:e>\n</head><body>\n<h1>Service\x20Unavailable</h1>\n<p>The\x20server\x2
+SF:0is\x20temporarily\x20unable\x20to\x20service\x20your\nrequest\x20due\x
+SF:20to\x20maintenance\x20downtime\x20or\x20capacity\nproblems\.\x20Please
+SF:\x20try\x20again\x20later\.</p>\n</body></html>\n")%r(HTTPOptions,27A,"
+SF:HTTP/1\.1\x20503\x20Service\x20Unavailable\r\ndate:\x20Fri,\x2014\x20Fe
+SF:b\x202025\x2012:49:47\x20GMT\r\nserver:\x20Apache\r\ncontent-length:\x2
+SF:0299\r\ncontent-type:\x20text/html;\x20charset=iso-8859-1\r\nstrict-tra
+SF:nsport-security:\x20max-age=31536000;\x20preload\r\nx-xss-protection:\x
+SF:201;\x20mode=block\r\nx-content-type-options:\x20nosniff\r\nx-permitted
+SF:-cross-domain-policies:\x20none\r\nconnection:\x20close\r\n\r\n<!DOCTYP
+SF:E\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><he
+SF:ad>\n<title>503\x20Service\x20Unavailable</title>\n</head><body>\n<h1>S
+SF:ervice\x20Unavailable</h1>\n<p>The\x20server\x20is\x20temporarily\x20un
+SF:able\x20to\x20service\x20your\nrequest\x20due\x20to\x20maintenance\x20d
+SF:owntime\x20or\x20capacity\nproblems\.\x20Please\x20try\x20again\x20late
+SF:r\.</p>\n</body></html>\n")%r(FourOhFourRequest,27A,"HTTP/1\.1\x20503\x
+SF:20Service\x20Unavailable\r\ndate:\x20Fri,\x2014\x20Feb\x202025\x2012:49
+SF::48\x20GMT\r\nserver:\x20Apache\r\ncontent-length:\x20299\r\ncontent-ty
+SF:pe:\x20text/html;\x20charset=iso-8859-1\r\nstrict-transport-security:\x
+SF:20max-age=31536000;\x20preload\r\nx-xss-protection:\x201;\x20mode=block
+SF:\r\nx-content-type-options:\x20nosniff\r\nx-permitted-cross-domain-poli
+SF:cies:\x20none\r\nconnection:\x20close\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLI
+SF:C\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>503\x2
+SF:0Service\x20Unavailable</title>\n</head><body>\n<h1>Service\x20Unavaila
+SF:ble</h1>\n<p>The\x20server\x20is\x20temporarily\x20unable\x20to\x20serv
+SF:ice\x20your\nrequest\x20due\x20to\x20maintenance\x20downtime\x20or\x20c
+SF:apacity\nproblems\.\x20Please\x20try\x20again\x20later\.</p>\n</body></
+SF:html>\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Tue Jan 14 12:50:39 2025 -- 1 IP address (1 host up) scanned in 44.04 seconds
+# Nmap done at Fri Feb 14 12:50:14 2025 -- 1 IP address (1 host up) scanned in 50.27 seconds
