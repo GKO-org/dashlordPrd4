@@ -1,2 +1,2 @@
-# Nmap 7.92 scan initiated Tue Jan 14 12:56:47 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln etudiant.gouv.fr
-# Nmap done at Tue Jan 14 12:56:51 2025 -- 1 IP address (0 hosts up) scanned in 3.49 seconds
+# Nmap 7.92 scan initiated Fri Feb 14 12:59:02 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln etudiant.gouv.fr
+# Nmap done at Fri Feb 14 12:59:05 2025 -- 1 IP address (0 hosts up) scanned in 3.43 seconds
