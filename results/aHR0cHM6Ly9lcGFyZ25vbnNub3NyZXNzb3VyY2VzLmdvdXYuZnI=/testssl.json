@@ -328,6 +328,13 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
@@ -346,7 +353,7 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "69 >= 30 days"
+              "finding"      : "38 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,14 +514,14 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736858646"
+              "finding"      : "1739537012"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -606,6 +613,13 @@
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "https://epargnonsnosressources.gouv.fr"
+          }
+,         {
+              "id"           : "Permissions-Policy",
+              "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "accelerometer=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
           }
 ,         {
               "id"           : "Referrer-Policy",
@@ -1119,6 +1133,6 @@
               "ip"           : "epargnonsnosressources.gouv.fr/91.151.77.101",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "126"
+              "finding"      : "79"
           }
 ]
