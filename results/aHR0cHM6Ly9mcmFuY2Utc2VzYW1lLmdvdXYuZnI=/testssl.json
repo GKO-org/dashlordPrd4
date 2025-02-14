@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "france-sesame.gouv.fr/212.106.111.193",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "73 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (42)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "france-sesame.gouv.fr/212.106.111.193",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-03-28 22:59"
           }
 ,         {
@@ -542,7 +542,7 @@
               "ip"           : "france-sesame.gouv.fr/212.106.111.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736860944"
+              "finding"      : "1739538986"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1154,6 +1154,6 @@
               "ip"           : "france-sesame.gouv.fr/212.106.111.193",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "134"
+              "finding"      : "84"
           }
 ]
