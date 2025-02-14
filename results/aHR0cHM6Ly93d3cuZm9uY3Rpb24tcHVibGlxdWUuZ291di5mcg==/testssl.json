@@ -192,14 +192,14 @@
               "ip"           : "www.fonction-publique.gouv.fr/45.223.57.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "www.fonction-publique.gouv.fr/45.223.57.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -321,6 +321,13 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "www.fonction-publique.gouv.fr/45.223.57.83",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "www.fonction-publique.gouv.fr/45.223.57.83",
               "port"         : "443",
@@ -338,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.fonction-publique.gouv.fr/45.223.57.83",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "86 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (55)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.fonction-publique.gouv.fr/45.223.57.83",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-04-10 23:59"
           }
 ,         {
@@ -500,14 +507,14 @@
               "ip"           : "www.fonction-publique.gouv.fr/45.223.57.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.fonction-publique.gouv.fr/45.223.57.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736859895"
+              "finding"      : "1739538108"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -698,7 +705,7 @@
               "severity"     : "MEDIUM",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, gzip compress HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "potentially VULNERABLE, gzip deflate br HTTP compression detected  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -1126,6 +1133,6 @@
               "ip"           : "www.fonction-publique.gouv.fr/45.223.57.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "61"
+              "finding"      : "57"
           }
 ]
